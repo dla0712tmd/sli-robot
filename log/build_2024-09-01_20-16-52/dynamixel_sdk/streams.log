@@ -1,0 +1,41 @@
+[0.098s] Invoking command in '/home/sli/slither_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sli/slither_ws/build/dynamixel_sdk -- -j4 -l4
+[0.367s] [100%] Built target dynamixel_sdk
+[1.938s] Invoked command in '/home/sli/slither_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sli/slither_ws/build/dynamixel_sdk -- -j4 -l4
+[2.312s] Invoking command in '/home/sli/slither_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sli/slither_ws/build/dynamixel_sdk
+[2.363s] -- Install configuration: ""
+[2.365s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/include/
+[2.368s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk
+[2.370s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[2.371s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[2.375s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[2.377s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[2.380s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[2.382s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[2.383s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[2.385s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[2.386s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[2.388s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[2.389s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[2.390s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[2.391s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[2.391s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[2.392s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[2.393s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[2.393s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[2.394s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[2.417s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[2.420s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[2.421s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[2.423s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[2.424s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[2.425s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[2.426s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[2.427s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[2.429s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[2.432s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[2.433s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.433s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[2.434s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[2.436s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[2.438s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[2.439s] Invoked command in '/home/sli/slither_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sli/slither_ws/build/dynamixel_sdk

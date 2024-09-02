@@ -1,0 +1,1289 @@
+[0.000000] (-) TimerEvent: {}
+[0.001680] (dynamixel_keyboard_controller) JobQueued: {'identifier': 'dynamixel_keyboard_controller', 'dependencies': OrderedDict()}
+[0.001816] (dynamixel_sdk) JobQueued: {'identifier': 'dynamixel_sdk', 'dependencies': OrderedDict()}
+[0.002394] (dynamixel_sdk_custom_interfaces) JobQueued: {'identifier': 'dynamixel_sdk_custom_interfaces', 'dependencies': OrderedDict()}
+[0.002922] (dynamixel_mpu9250) JobQueued: {'identifier': 'dynamixel_mpu9250', 'dependencies': OrderedDict([('dynamixel_sdk', '/home/sli/slither_ws/install/dynamixel_sdk')])}
+[0.003124] (dynamixel_sdk_examples) JobQueued: {'identifier': 'dynamixel_sdk_examples', 'dependencies': OrderedDict([('dynamixel_sdk', '/home/sli/slither_ws/install/dynamixel_sdk'), ('dynamixel_sdk_custom_interfaces', '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces')])}
+[0.003434] (dynamixel_sdk) JobStarted: {'identifier': 'dynamixel_sdk'}
+[0.036122] (dynamixel_sdk_custom_interfaces) JobStarted: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.056881] (dynamixel_keyboard_controller) JobStarted: {'identifier': 'dynamixel_keyboard_controller'}
+[0.097180] (dynamixel_sdk) JobProgress: {'identifier': 'dynamixel_sdk', 'progress': 'cmake'}
+[0.098393] (dynamixel_sdk) Command: {'cmd': ['/usr/bin/cmake', '/home/sli/slither_ws/src/DynamixelSDK/dynamixel_sdk', '-DCMAKE_INSTALL_PREFIX=/home/sli/slither_ws/install/dynamixel_sdk'], 'cwd': '/home/sli/slither_ws/build/dynamixel_sdk', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'sli'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/sli/slither_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sli'), ('OLDPWD', '/home/sli'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1546'), ('SYSTEMD_EXEC_PID', '1707'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2240'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sli/slither_ws/install:/home/sli/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sli'), ('JOURNAL_STREAM', '8:27088'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sli'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sli/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sli-desktop:@/tmp/.ICE-unix/1686,unix/sli-desktop:/tmp/.ICE-unix/1686'), ('INVOCATION_ID', '6069d7c8481d47e8915f762c141f8d4d'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KRCWS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/home/sli/ros2_ws/install/mpu6050_reader:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:27edb66b-21b3-45b5-8a8b-d61d6924e532'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sli/slither_ws/build/dynamixel_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages:/home/sli/ros2_ws/install/mpu6050_reader/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/home/sli/ros2_ws/install/mpu6050_reader:/opt/ros/humble')]), 'shell': False}
+[0.103526] (-) TimerEvent: {}
+[0.114636] (dynamixel_sdk_custom_interfaces) JobProgress: {'identifier': 'dynamixel_sdk_custom_interfaces', 'progress': 'cmake'}
+[0.115946] (dynamixel_sdk_custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/sli/slither_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces'], 'cwd': '/home/sli/slither_ws/build/dynamixel_sdk_custom_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'sli'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/sli/slither_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sli'), ('OLDPWD', '/home/sli'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1546'), ('SYSTEMD_EXEC_PID', '1707'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2240'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sli/slither_ws/install:/home/sli/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sli'), ('JOURNAL_STREAM', '8:27088'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sli'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sli/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sli-desktop:@/tmp/.ICE-unix/1686,unix/sli-desktop:/tmp/.ICE-unix/1686'), ('INVOCATION_ID', '6069d7c8481d47e8915f762c141f8d4d'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KRCWS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/home/sli/ros2_ws/install/mpu6050_reader:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:27edb66b-21b3-45b5-8a8b-d61d6924e532'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sli/slither_ws/build/dynamixel_sdk_custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages:/home/sli/ros2_ws/install/mpu6050_reader/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/home/sli/ros2_ws/install/mpu6050_reader:/opt/ros/humble')]), 'shell': False}
+[0.203825] (-) TimerEvent: {}
+[0.304910] (-) TimerEvent: {}
+[0.406845] (-) TimerEvent: {}
+[0.469087] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.470385] (dynamixel_sdk) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.506988] (-) TimerEvent: {}
+[0.608048] (-) TimerEvent: {}
+[0.709780] (-) TimerEvent: {}
+[0.784307] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.792678] (dynamixel_sdk) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.809965] (-) TimerEvent: {}
+[0.825255] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.825945] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.910288] (-) TimerEvent: {}
+[1.012293] (-) TimerEvent: {}
+[1.113422] (-) TimerEvent: {}
+[1.214599] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.215204] (-) TimerEvent: {}
+[1.234413] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.248177] (dynamixel_sdk) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.253200] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.254885] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.263189] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.264484] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.265905] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.274396] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.279374] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.315390] (-) TimerEvent: {}
+[1.416193] (-) TimerEvent: {}
+[1.517612] (-) TimerEvent: {}
+[1.619265] (-) TimerEvent: {}
+[1.710723] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.711483] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.719422] (-) TimerEvent: {}
+[1.738293] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.739238] (dynamixel_sdk) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.741243] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.742779] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.743291] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.743754] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.769306] (dynamixel_sdk) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.769980] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.819587] (-) TimerEvent: {}
+[1.920427] (-) TimerEvent: {}
+[2.021777] (-) TimerEvent: {}
+[2.123872] (-) TimerEvent: {}
+[2.225244] (-) TimerEvent: {}
+[2.326801] (-) TimerEvent: {}
+[2.428251] (-) TimerEvent: {}
+[2.529291] (-) TimerEvent: {}
+[2.631103] (-) TimerEvent: {}
+[2.732138] (-) TimerEvent: {}
+[2.833691] (-) TimerEvent: {}
+[2.861556] (dynamixel_sdk) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.863442] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.933890] (-) TimerEvent: {}
+[3.034919] (-) TimerEvent: {}
+[3.135938] (-) TimerEvent: {}
+[3.237096] (-) TimerEvent: {}
+[3.339950] (-) TimerEvent: {}
+[3.440706] (-) TimerEvent: {}
+[3.541589] (-) TimerEvent: {}
+[3.641667] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[3.642574] (-) TimerEvent: {}
+[3.743424] (-) TimerEvent: {}
+[3.844798] (-) TimerEvent: {}
+[3.945811] (-) TimerEvent: {}
+[4.028165] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.039425] (dynamixel_sdk) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.046003] (-) TimerEvent: {}
+[4.072336] (dynamixel_sdk) StdoutLine: {'line': b'-- Generating done\n'}
+[4.078317] (dynamixel_sdk) StdoutLine: {'line': b'-- Build files have been written to: /home/sli/slither_ws/build/dynamixel_sdk\n'}
+[4.087717] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.098825] (dynamixel_sdk) CommandEnded: {'returncode': 0}
+[4.101327] (dynamixel_sdk) JobProgress: {'identifier': 'dynamixel_sdk', 'progress': 'build'}
+[4.108514] (dynamixel_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sli/slither_ws/build/dynamixel_sdk', '--', '-j4', '-l4'], 'cwd': '/home/sli/slither_ws/build/dynamixel_sdk', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'sli'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/sli/slither_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sli'), ('OLDPWD', '/home/sli'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1546'), ('SYSTEMD_EXEC_PID', '1707'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2240'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sli/slither_ws/install:/home/sli/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sli'), ('JOURNAL_STREAM', '8:27088'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sli'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sli/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sli-desktop:@/tmp/.ICE-unix/1686,unix/sli-desktop:/tmp/.ICE-unix/1686'), ('INVOCATION_ID', '6069d7c8481d47e8915f762c141f8d4d'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KRCWS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/home/sli/ros2_ws/install/mpu6050_reader:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:27edb66b-21b3-45b5-8a8b-d61d6924e532'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sli/slither_ws/build/dynamixel_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages:/home/sli/ros2_ws/install/mpu6050_reader/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/home/sli/ros2_ws/install/mpu6050_reader:/opt/ros/humble')]), 'shell': False}
+[4.146460] (-) TimerEvent: {}
+[4.177524] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.246747] (-) TimerEvent: {}
+[4.273390] (dynamixel_keyboard_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/dynamixel_keyboard_controller', 'build', '--build-base', '/home/sli/slither_ws/build/dynamixel_keyboard_controller/build', 'install', '--record', '/home/sli/slither_ws/build/dynamixel_keyboard_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sli/slither_ws/src/dynamixel_keyboard_controller', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'sli', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/sli/slither_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sli', 'OLDPWD': '/home/sli', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1546', 'SYSTEMD_EXEC_PID': '1707', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2240', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/sli/slither_ws/install:/home/sli/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sli', 'JOURNAL_STREAM': '8:27088', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sli', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/sli/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sli-desktop:@/tmp/.ICE-unix/1686,unix/sli-desktop:/tmp/.ICE-unix/1686', 'INVOCATION_ID': '6069d7c8481d47e8915f762c141f8d4d', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.KRCWS2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/home/sli/ros2_ws/install/mpu6050_reader:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:27edb66b-21b3-45b5-8a8b-d61d6924e532', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sli/slither_ws/build/dynamixel_keyboard_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sli/slither_ws/build/dynamixel_keyboard_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages:/home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages:/home/sli/ros2_ws/install/mpu6050_reader/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk'}, 'shell': False}
+[4.285995] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.347146] (-) TimerEvent: {}
+[4.389334] (dynamixel_sdk) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o\x1b[0m\n'}
+[4.390682] (dynamixel_sdk) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o\x1b[0m\n'}
+[4.429484] (dynamixel_sdk) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o\x1b[0m\n'}
+[4.439889] (dynamixel_sdk) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o\x1b[0m\n'}
+[4.441934] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.447330] (-) TimerEvent: {}
+[4.548952] (-) TimerEvent: {}
+[4.596900] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[4.649188] (-) TimerEvent: {}
+[4.751018] (-) TimerEvent: {}
+[4.852564] (-) TimerEvent: {}
+[4.954384] (-) TimerEvent: {}
+[5.055399] (-) TimerEvent: {}
+[5.156742] (-) TimerEvent: {}
+[5.208493] (dynamixel_sdk) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o\x1b[0m\n'}
+[5.257082] (-) TimerEvent: {}
+[5.358243] (-) TimerEvent: {}
+[5.459313] (-) TimerEvent: {}
+[5.560532] (-) TimerEvent: {}
+[5.661699] (-) TimerEvent: {}
+[5.762832] (-) TimerEvent: {}
+[5.864104] (-) TimerEvent: {}
+[5.965319] (-) TimerEvent: {}
+[6.066390] (-) TimerEvent: {}
+[6.071751] (dynamixel_sdk) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o\x1b[0m\n'}
+[6.166630] (-) TimerEvent: {}
+[6.212404] (dynamixel_sdk) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o\x1b[0m\n'}
+[6.266820] (-) TimerEvent: {}
+[6.367921] (-) TimerEvent: {}
+[6.468938] (-) TimerEvent: {}
+[6.569880] (-) TimerEvent: {}
+[6.672063] (-) TimerEvent: {}
+[6.773334] (-) TimerEvent: {}
+[6.874624] (-) TimerEvent: {}
+[6.975780] (-) TimerEvent: {}
+[7.077105] (-) TimerEvent: {}
+[7.178268] (-) TimerEvent: {}
+[7.280205] (-) TimerEvent: {}
+[7.381156] (-) TimerEvent: {}
+[7.482204] (-) TimerEvent: {}
+[7.583414] (-) TimerEvent: {}
+[7.684671] (-) TimerEvent: {}
+[7.689270] (dynamixel_sdk) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o\x1b[0m\n'}
+[7.785045] (-) TimerEvent: {}
+[7.891447] (-) TimerEvent: {}
+[7.961438] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[7.991705] (-) TimerEvent: {}
+[8.051998] (dynamixel_sdk) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o\x1b[0m\n'}
+[8.091937] (-) TimerEvent: {}
+[8.171462] (dynamixel_keyboard_controller) StdoutLine: {'line': b'running egg_info\n'}
+[8.187221] (dynamixel_keyboard_controller) StdoutLine: {'line': b'creating ../../build/dynamixel_keyboard_controller/dynamixel_keyboard_controller.egg-info\n'}
+[8.188176] (dynamixel_keyboard_controller) StdoutLine: {'line': b'writing ../../build/dynamixel_keyboard_controller/dynamixel_keyboard_controller.egg-info/PKG-INFO\n'}
+[8.192181] (-) TimerEvent: {}
+[8.193171] (dynamixel_keyboard_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/dynamixel_keyboard_controller/dynamixel_keyboard_controller.egg-info/dependency_links.txt\n'}
+[8.204515] (dynamixel_keyboard_controller) StdoutLine: {'line': b'writing entry points to ../../build/dynamixel_keyboard_controller/dynamixel_keyboard_controller.egg-info/entry_points.txt\n'}
+[8.205323] (dynamixel_keyboard_controller) StdoutLine: {'line': b'writing requirements to ../../build/dynamixel_keyboard_controller/dynamixel_keyboard_controller.egg-info/requires.txt\n'}
+[8.206397] (dynamixel_keyboard_controller) StdoutLine: {'line': b'writing top-level names to ../../build/dynamixel_keyboard_controller/dynamixel_keyboard_controller.egg-info/top_level.txt\n'}
+[8.207193] (dynamixel_keyboard_controller) StdoutLine: {'line': b"writing manifest file '../../build/dynamixel_keyboard_controller/dynamixel_keyboard_controller.egg-info/SOURCES.txt'\n"}
+[8.236335] (dynamixel_keyboard_controller) StdoutLine: {'line': b"reading manifest file '../../build/dynamixel_keyboard_controller/dynamixel_keyboard_controller.egg-info/SOURCES.txt'\n"}
+[8.237266] (dynamixel_keyboard_controller) StdoutLine: {'line': b"writing manifest file '../../build/dynamixel_keyboard_controller/dynamixel_keyboard_controller.egg-info/SOURCES.txt'\n"}
+[8.242765] (dynamixel_keyboard_controller) StdoutLine: {'line': b'running build\n'}
+[8.243792] (dynamixel_keyboard_controller) StdoutLine: {'line': b'running build_py\n'}
+[8.244687] (dynamixel_keyboard_controller) StdoutLine: {'line': b'creating /home/sli/slither_ws/build/dynamixel_keyboard_controller/build\n'}
+[8.245328] (dynamixel_keyboard_controller) StdoutLine: {'line': b'creating /home/sli/slither_ws/build/dynamixel_keyboard_controller/build/lib\n'}
+[8.246252] (dynamixel_keyboard_controller) StdoutLine: {'line': b'creating /home/sli/slither_ws/build/dynamixel_keyboard_controller/build/lib/dynamixel_keyboard_controller\n'}
+[8.247005] (dynamixel_keyboard_controller) StdoutLine: {'line': b'copying dynamixel_keyboard_controller/controller (copy).py -> /home/sli/slither_ws/build/dynamixel_keyboard_controller/build/lib/dynamixel_keyboard_controller\n'}
+[8.248004] (dynamixel_keyboard_controller) StdoutLine: {'line': b'copying dynamixel_keyboard_controller/controller.py -> /home/sli/slither_ws/build/dynamixel_keyboard_controller/build/lib/dynamixel_keyboard_controller\n'}
+[8.252045] (dynamixel_keyboard_controller) StdoutLine: {'line': b'copying dynamixel_keyboard_controller/controller (success).py -> /home/sli/slither_ws/build/dynamixel_keyboard_controller/build/lib/dynamixel_keyboard_controller\n'}
+[8.254789] (dynamixel_keyboard_controller) StdoutLine: {'line': b'copying dynamixel_keyboard_controller/__init__.py -> /home/sli/slither_ws/build/dynamixel_keyboard_controller/build/lib/dynamixel_keyboard_controller\n'}
+[8.255620] (dynamixel_keyboard_controller) StdoutLine: {'line': b'running install\n'}
+[8.256839] (dynamixel_keyboard_controller) StdoutLine: {'line': b'running install_lib\n'}
+[8.272971] (dynamixel_keyboard_controller) StdoutLine: {'line': b'creating /home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages/dynamixel_keyboard_controller\n'}
+[8.279547] (dynamixel_keyboard_controller) StdoutLine: {'line': b'copying /home/sli/slither_ws/build/dynamixel_keyboard_controller/build/lib/dynamixel_keyboard_controller/controller (copy).py -> /home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages/dynamixel_keyboard_controller\n'}
+[8.280670] (dynamixel_keyboard_controller) StdoutLine: {'line': b'copying /home/sli/slither_ws/build/dynamixel_keyboard_controller/build/lib/dynamixel_keyboard_controller/controller.py -> /home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages/dynamixel_keyboard_controller\n'}
+[8.281869] (dynamixel_keyboard_controller) StdoutLine: {'line': b'copying /home/sli/slither_ws/build/dynamixel_keyboard_controller/build/lib/dynamixel_keyboard_controller/controller (success).py -> /home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages/dynamixel_keyboard_controller\n'}
+[8.282896] (dynamixel_keyboard_controller) StdoutLine: {'line': b'copying /home/sli/slither_ws/build/dynamixel_keyboard_controller/build/lib/dynamixel_keyboard_controller/__init__.py -> /home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages/dynamixel_keyboard_controller\n'}
+[8.286532] (dynamixel_keyboard_controller) StdoutLine: {'line': b'byte-compiling /home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages/dynamixel_keyboard_controller/controller (copy).py to controller (copy).cpython-310.pyc\n'}
+[8.292433] (-) TimerEvent: {}
+[8.306506] (dynamixel_keyboard_controller) StdoutLine: {'line': b'byte-compiling /home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages/dynamixel_keyboard_controller/controller.py to controller.cpython-310.pyc\n'}
+[8.327088] (dynamixel_keyboard_controller) StdoutLine: {'line': b'byte-compiling /home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages/dynamixel_keyboard_controller/controller (success).py to controller (success).cpython-310.pyc\n'}
+[8.339411] (dynamixel_keyboard_controller) StdoutLine: {'line': b'byte-compiling /home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages/dynamixel_keyboard_controller/__init__.py to __init__.cpython-310.pyc\n'}
+[8.341539] (dynamixel_keyboard_controller) StdoutLine: {'line': b'running install_data\n'}
+[8.342623] (dynamixel_keyboard_controller) StdoutLine: {'line': b'creating /home/sli/slither_ws/install/dynamixel_keyboard_controller/share/ament_index\n'}
+[8.343536] (dynamixel_keyboard_controller) StdoutLine: {'line': b'creating /home/sli/slither_ws/install/dynamixel_keyboard_controller/share/ament_index/resource_index\n'}
+[8.344325] (dynamixel_keyboard_controller) StdoutLine: {'line': b'creating /home/sli/slither_ws/install/dynamixel_keyboard_controller/share/ament_index/resource_index/packages\n'}
+[8.345070] (dynamixel_keyboard_controller) StdoutLine: {'line': b'copying resource/dynamixel_keyboard_controller -> /home/sli/slither_ws/install/dynamixel_keyboard_controller/share/ament_index/resource_index/packages\n'}
+[8.346327] (dynamixel_keyboard_controller) StdoutLine: {'line': b'copying package.xml -> /home/sli/slither_ws/install/dynamixel_keyboard_controller/share/dynamixel_keyboard_controller\n'}
+[8.347376] (dynamixel_keyboard_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.365218] (dynamixel_keyboard_controller) StdoutLine: {'line': b'Copying ../../build/dynamixel_keyboard_controller/dynamixel_keyboard_controller.egg-info to /home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages/dynamixel_keyboard_controller-0.0.0-py3.10.egg-info\n'}
+[8.392710] (-) TimerEvent: {}
+[8.396052] (dynamixel_keyboard_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[8.492996] (-) TimerEvent: {}
+[8.545095] (dynamixel_keyboard_controller) StdoutLine: {'line': b'Installing dynamixel_keyboard_controller script to /home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/dynamixel_keyboard_controller\n'}
+[8.549814] (dynamixel_keyboard_controller) StdoutLine: {'line': b"writing list of installed files to '/home/sli/slither_ws/build/dynamixel_keyboard_controller/install.log'\n"}
+[8.593302] (-) TimerEvent: {}
+[8.695257] (-) TimerEvent: {}
+[8.795847] (dynamixel_keyboard_controller) CommandEnded: {'returncode': 0}
+[8.798757] (-) TimerEvent: {}
+[8.900411] (-) TimerEvent: {}
+[8.938508] (dynamixel_keyboard_controller) JobEnded: {'identifier': 'dynamixel_keyboard_controller', 'rc': 0}
+[9.000637] (-) TimerEvent: {}
+[9.101582] (-) TimerEvent: {}
+[9.202643] (-) TimerEvent: {}
+[9.303558] (-) TimerEvent: {}
+[9.404552] (-) TimerEvent: {}
+[9.505643] (-) TimerEvent: {}
+[9.614373] (-) TimerEvent: {}
+[9.715500] (-) TimerEvent: {}
+[9.816519] (-) TimerEvent: {}
+[9.917578] (-) TimerEvent: {}
+[10.019553] (-) TimerEvent: {}
+[10.120447] (-) TimerEvent: {}
+[10.221518] (-) TimerEvent: {}
+[10.246446] (dynamixel_sdk) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libdynamixel_sdk.so\x1b[0m\n'}
+[10.321877] (-) TimerEvent: {}
+[10.422873] (-) TimerEvent: {}
+[10.448957] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.523095] (-) TimerEvent: {}
+[10.624006] (-) TimerEvent: {}
+[10.644519] (dynamixel_sdk) StdoutLine: {'line': b'[100%] Built target dynamixel_sdk\n'}
+[10.696781] (dynamixel_sdk) CommandEnded: {'returncode': 0}
+[10.724211] (-) TimerEvent: {}
+[10.825339] (-) TimerEvent: {}
+[10.926218] (-) TimerEvent: {}
+[10.984833] (dynamixel_sdk) JobProgress: {'identifier': 'dynamixel_sdk', 'progress': 'install'}
+[11.027550] (dynamixel_sdk) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sli/slither_ws/build/dynamixel_sdk'], 'cwd': '/home/sli/slither_ws/build/dynamixel_sdk', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'sli'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/sli/slither_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sli'), ('OLDPWD', '/home/sli'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1546'), ('SYSTEMD_EXEC_PID', '1707'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2240'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sli/slither_ws/install:/home/sli/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sli'), ('JOURNAL_STREAM', '8:27088'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sli'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sli/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sli-desktop:@/tmp/.ICE-unix/1686,unix/sli-desktop:/tmp/.ICE-unix/1686'), ('INVOCATION_ID', '6069d7c8481d47e8915f762c141f8d4d'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KRCWS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/home/sli/ros2_ws/install/mpu6050_reader:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:27edb66b-21b3-45b5-8a8b-d61d6924e532'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sli/slither_ws/build/dynamixel_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages:/home/sli/ros2_ws/install/mpu6050_reader/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/home/sli/ros2_ws/install/mpu6050_reader:/opt/ros/humble')]), 'shell': False}
+[11.030308] (-) TimerEvent: {}
+[11.056086] (dynamixel_sdk) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.056719] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/include/\n'}
+[11.057380] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk\n'}
+[11.057997] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h\n'}
+[11.066499] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h\n'}
+[11.069133] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h\n'}
+[11.072130] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h\n'}
+[11.073291] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h\n'}
+[11.074492] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h\n'}
+[11.075730] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h\n'}
+[11.076869] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h\n'}
+[11.079412] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h\n'}
+[11.080387] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h\n'}
+[11.081594] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h\n'}
+[11.083178] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h\n'}
+[11.084520] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h\n'}
+[11.086073] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so\n'}
+[11.090070] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh\n'}
+[11.092547] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv\n'}
+[11.095286] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk\n'}
+[11.097473] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk\n'}
+[11.099486] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh\n'}
+[11.101157] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv\n'}
+[11.103181] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh\n'}
+[11.104540] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv\n'}
+[11.105816] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash\n'}
+[11.107139] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh\n'}
+[11.108290] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh\n'}
+[11.109757] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv\n'}
+[11.110964] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv\n'}
+[11.112416] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.113080] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk\n'}
+[11.114062] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.115619] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.116925] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake\n'}
+[11.117909] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake\n'}
+[11.119127] (dynamixel_sdk) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml\n'}
+[11.125337] (dynamixel_sdk) CommandEnded: {'returncode': 0}
+[11.130452] (-) TimerEvent: {}
+[11.231545] (-) TimerEvent: {}
+[11.240950] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[11.261943] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[11.331766] (-) TimerEvent: {}
+[11.399474] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[11.400079] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[11.400526] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[11.400894] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[11.431968] (-) TimerEvent: {}
+[11.493698] (dynamixel_sdk) JobEnded: {'identifier': 'dynamixel_sdk', 'rc': 0}
+[11.497951] (dynamixel_mpu9250) JobStarted: {'identifier': 'dynamixel_mpu9250'}
+[11.525052] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[11.533360] (-) TimerEvent: {}
+[11.634297] (-) TimerEvent: {}
+[11.735506] (-) TimerEvent: {}
+[11.772511] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.835757] (-) TimerEvent: {}
+[11.936537] (-) TimerEvent: {}
+[11.997488] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[12.013768] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/sli/slither_ws/build/dynamixel_sdk_custom_interfaces\n'}
+[12.036692] (-) TimerEvent: {}
+[12.137359] (-) TimerEvent: {}
+[12.238037] (-) TimerEvent: {}
+[12.338747] (-) TimerEvent: {}
+[12.439379] (-) TimerEvent: {}
+[12.540363] (-) TimerEvent: {}
+[12.641048] (-) TimerEvent: {}
+[12.741721] (-) TimerEvent: {}
+[12.842528] (-) TimerEvent: {}
+[12.895102] (dynamixel_sdk_custom_interfaces) CommandEnded: {'returncode': 0}
+[12.897918] (dynamixel_sdk_custom_interfaces) JobProgress: {'identifier': 'dynamixel_sdk_custom_interfaces', 'progress': 'build'}
+[12.904697] (dynamixel_sdk_custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sli/slither_ws/build/dynamixel_sdk_custom_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/sli/slither_ws/build/dynamixel_sdk_custom_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'sli'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/sli/slither_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sli'), ('OLDPWD', '/home/sli'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1546'), ('SYSTEMD_EXEC_PID', '1707'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2240'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sli/slither_ws/install:/home/sli/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sli'), ('JOURNAL_STREAM', '8:27088'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sli'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sli/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sli-desktop:@/tmp/.ICE-unix/1686,unix/sli-desktop:/tmp/.ICE-unix/1686'), ('INVOCATION_ID', '6069d7c8481d47e8915f762c141f8d4d'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KRCWS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/home/sli/ros2_ws/install/mpu6050_reader:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:27edb66b-21b3-45b5-8a8b-d61d6924e532'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sli/slither_ws/build/dynamixel_sdk_custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages:/home/sli/ros2_ws/install/mpu6050_reader/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/home/sli/ros2_ws/install/mpu6050_reader:/opt/ros/humble')]), 'shell': False}
+[12.944724] (-) TimerEvent: {}
+[13.045482] (-) TimerEvent: {}
+[13.111106] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[13.145715] (-) TimerEvent: {}
+[13.161908] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[13.210032] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_dynamixel_sdk_custom_interfaces\n'}
+[13.246027] (-) TimerEvent: {}
+[13.347437] (-) TimerEvent: {}
+[13.448402] (-) TimerEvent: {}
+[13.549373] (-) TimerEvent: {}
+[13.650342] (-) TimerEvent: {}
+[13.751149] (-) TimerEvent: {}
+[13.851944] (-) TimerEvent: {}
+[13.952946] (-) TimerEvent: {}
+[14.053756] (-) TimerEvent: {}
+[14.154549] (-) TimerEvent: {}
+[14.255549] (-) TimerEvent: {}
+[14.356910] (-) TimerEvent: {}
+[14.458303] (-) TimerEvent: {}
+[14.559147] (-) TimerEvent: {}
+[14.659966] (-) TimerEvent: {}
+[14.760843] (-) TimerEvent: {}
+[14.861772] (-) TimerEvent: {}
+[14.963043] (-) TimerEvent: {}
+[15.064417] (-) TimerEvent: {}
+[15.165832] (-) TimerEvent: {}
+[15.267533] (-) TimerEvent: {}
+[15.343060] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[15.350993] (dynamixel_mpu9250) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/dynamixel_mpu9250', 'build', '--build-base', '/home/sli/slither_ws/build/dynamixel_mpu9250/build', 'install', '--record', '/home/sli/slither_ws/build/dynamixel_mpu9250/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sli/slither_ws/src/dynamixel_mpu9250', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_GB:en', 'USER': 'sli', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/sli/slither_ws/install/dynamixel_sdk/lib:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sli', 'OLDPWD': '/home/sli', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1546', 'SYSTEMD_EXEC_PID': '1707', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2240', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/sli/slither_ws/install:/home/sli/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sli', 'JOURNAL_STREAM': '8:27088', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sli', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/sli/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sli-desktop:@/tmp/.ICE-unix/1686,unix/sli-desktop:/tmp/.ICE-unix/1686', 'INVOCATION_ID': '6069d7c8481d47e8915f762c141f8d4d', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.KRCWS2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/home/sli/ros2_ws/install/mpu6050_reader:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:27edb66b-21b3-45b5-8a8b-d61d6924e532', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sli/slither_ws/build/dynamixel_mpu9250', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sli/slither_ws/build/dynamixel_mpu9250/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages:/home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages:/home/sli/ros2_ws/install/mpu6050_reader/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces'}, 'shell': False}
+[15.364345] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'creating dynamixel_sdk_custom_interfaces.egg-info\n'}
+[15.365089] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'writing dynamixel_sdk_custom_interfaces.egg-info/PKG-INFO\n'}
+[15.365669] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'writing dependency_links to dynamixel_sdk_custom_interfaces.egg-info/dependency_links.txt\n'}
+[15.366441] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'writing top-level names to dynamixel_sdk_custom_interfaces.egg-info/top_level.txt\n'}
+[15.367176] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b"writing manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'\n"}
+[15.367825] (-) TimerEvent: {}
+[15.368874] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[  5%] Built target dynamixel_sdk_custom_interfaces__cpp\n'}
+[15.371296] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b"reading manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'\n"}
+[15.374459] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b"writing manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'\n"}
+[15.468201] (-) TimerEvent: {}
+[15.475942] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[15.568511] (-) TimerEvent: {}
+[15.585306] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg\n'}
+[15.630024] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[15.647856] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[15.668722] (-) TimerEvent: {}
+[15.770203] (-) TimerEvent: {}
+[15.871331] (-) TimerEvent: {}
+[15.940273] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.c.o\x1b[0m\n'}
+[15.971538] (-) TimerEvent: {}
+[16.073207] (-) TimerEvent: {}
+[16.174354] (-) TimerEvent: {}
+[16.275527] (-) TimerEvent: {}
+[16.376327] (-) TimerEvent: {}
+[16.477328] (-) TimerEvent: {}
+[16.511060] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.c.o\x1b[0m\n'}
+[16.577577] (-) TimerEvent: {}
+[16.678462] (-) TimerEvent: {}
+[16.779489] (-) TimerEvent: {}
+[16.863325] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[16.879703] (-) TimerEvent: {}
+[16.980614] (-) TimerEvent: {}
+[17.081462] (-) TimerEvent: {}
+[17.182544] (-) TimerEvent: {}
+[17.266546] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 20%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c\n'}
+[17.282745] (-) TimerEvent: {}
+[17.351139] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[17.383092] (-) TimerEvent: {}
+[17.485513] (-) TimerEvent: {}
+[17.587070] (-) TimerEvent: {}
+[17.607521] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_sdk_custom_interfaces/msg/set_position__type_support.cpp.o\x1b[0m\n'}
+[17.687288] (-) TimerEvent: {}
+[17.788332] (-) TimerEvent: {}
+[17.882181] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.cpp.o\x1b[0m\n'}
+[17.888455] (-) TimerEvent: {}
+[17.989400] (-) TimerEvent: {}
+[18.003243] (dynamixel_mpu9250) StdoutLine: {'line': b'running egg_info\n'}
+[18.006209] (dynamixel_mpu9250) StdoutLine: {'line': b'creating ../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info\n'}
+[18.007082] (dynamixel_mpu9250) StdoutLine: {'line': b'writing ../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info/PKG-INFO\n'}
+[18.008460] (dynamixel_mpu9250) StdoutLine: {'line': b'writing dependency_links to ../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info/dependency_links.txt\n'}
+[18.009326] (dynamixel_mpu9250) StdoutLine: {'line': b'writing entry points to ../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info/entry_points.txt\n'}
+[18.010245] (dynamixel_mpu9250) StdoutLine: {'line': b'writing requirements to ../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info/requires.txt\n'}
+[18.011602] (dynamixel_mpu9250) StdoutLine: {'line': b'writing top-level names to ../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info/top_level.txt\n'}
+[18.012542] (dynamixel_mpu9250) StdoutLine: {'line': b"writing manifest file '../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info/SOURCES.txt'\n"}
+[18.023054] (dynamixel_mpu9250) StdoutLine: {'line': b"reading manifest file '../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info/SOURCES.txt'\n"}
+[18.028632] (dynamixel_mpu9250) StdoutLine: {'line': b"writing manifest file '../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info/SOURCES.txt'\n"}
+[18.029598] (dynamixel_mpu9250) StdoutLine: {'line': b'running build\n'}
+[18.030225] (dynamixel_mpu9250) StdoutLine: {'line': b'running build_py\n'}
+[18.031334] (dynamixel_mpu9250) StdoutLine: {'line': b'creating /home/sli/slither_ws/build/dynamixel_mpu9250/build\n'}
+[18.031993] (dynamixel_mpu9250) StdoutLine: {'line': b'creating /home/sli/slither_ws/build/dynamixel_mpu9250/build/lib\n'}
+[18.035107] (dynamixel_mpu9250) StdoutLine: {'line': b'creating /home/sli/slither_ws/build/dynamixel_mpu9250/build/lib/dynamixel_mpu9250\n'}
+[18.037261] (dynamixel_mpu9250) StdoutLine: {'line': b'copying dynamixel_mpu9250/dynamixel_controller.py -> /home/sli/slither_ws/build/dynamixel_mpu9250/build/lib/dynamixel_mpu9250\n'}
+[18.037947] (dynamixel_mpu9250) StdoutLine: {'line': b'copying dynamixel_mpu9250/__init__.py -> /home/sli/slither_ws/build/dynamixel_mpu9250/build/lib/dynamixel_mpu9250\n'}
+[18.039026] (dynamixel_mpu9250) StdoutLine: {'line': b'running install\n'}
+[18.040585] (dynamixel_mpu9250) StdoutLine: {'line': b'running install_lib\n'}
+[18.048054] (dynamixel_mpu9250) StdoutLine: {'line': b'creating /home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages/dynamixel_mpu9250\n'}
+[18.049137] (dynamixel_mpu9250) StdoutLine: {'line': b'copying /home/sli/slither_ws/build/dynamixel_mpu9250/build/lib/dynamixel_mpu9250/dynamixel_controller.py -> /home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages/dynamixel_mpu9250\n'}
+[18.050805] (dynamixel_mpu9250) StdoutLine: {'line': b'copying /home/sli/slither_ws/build/dynamixel_mpu9250/build/lib/dynamixel_mpu9250/__init__.py -> /home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages/dynamixel_mpu9250\n'}
+[18.054504] (dynamixel_mpu9250) StdoutLine: {'line': b'byte-compiling /home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages/dynamixel_mpu9250/dynamixel_controller.py to dynamixel_controller.cpython-310.pyc\n'}
+[18.059715] (dynamixel_mpu9250) StdoutLine: {'line': b'byte-compiling /home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages/dynamixel_mpu9250/__init__.py to __init__.cpython-310.pyc\n'}
+[18.060988] (dynamixel_mpu9250) StdoutLine: {'line': b'running install_data\n'}
+[18.062100] (dynamixel_mpu9250) StdoutLine: {'line': b'creating /home/sli/slither_ws/install/dynamixel_mpu9250/share/ament_index\n'}
+[18.063014] (dynamixel_mpu9250) StdoutLine: {'line': b'creating /home/sli/slither_ws/install/dynamixel_mpu9250/share/ament_index/resource_index\n'}
+[18.063680] (dynamixel_mpu9250) StdoutLine: {'line': b'creating /home/sli/slither_ws/install/dynamixel_mpu9250/share/ament_index/resource_index/packages\n'}
+[18.064300] (dynamixel_mpu9250) StdoutLine: {'line': b'copying resource/dynamixel_mpu9250 -> /home/sli/slither_ws/install/dynamixel_mpu9250/share/ament_index/resource_index/packages\n'}
+[18.065138] (dynamixel_mpu9250) StdoutLine: {'line': b'copying package.xml -> /home/sli/slither_ws/install/dynamixel_mpu9250/share/dynamixel_mpu9250\n'}
+[18.065676] (dynamixel_mpu9250) StdoutLine: {'line': b'running install_egg_info\n'}
+[18.072982] (dynamixel_mpu9250) StdoutLine: {'line': b'Copying ../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info to /home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages/dynamixel_mpu9250-0.0.0-py3.10.egg-info\n'}
+[18.080859] (dynamixel_mpu9250) StdoutLine: {'line': b'running install_scripts\n'}
+[18.089714] (-) TimerEvent: {}
+[18.191320] (-) TimerEvent: {}
+[18.198982] (dynamixel_mpu9250) StdoutLine: {'line': b'Installing dynamixel_controller script to /home/sli/slither_ws/install/dynamixel_mpu9250/lib/dynamixel_mpu9250\n'}
+[18.200799] (dynamixel_mpu9250) StdoutLine: {'line': b"writing list of installed files to '/home/sli/slither_ws/build/dynamixel_mpu9250/install.log'\n"}
+[18.252583] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_sdk_custom_interfaces/msg/detail/dds_fastrtps/set_position__type_support.cpp.o\x1b[0m\n'}
+[18.291618] (-) TimerEvent: {}
+[18.390322] (dynamixel_mpu9250) CommandEnded: {'returncode': 0}
+[18.392079] (-) TimerEvent: {}
+[18.476247] (dynamixel_mpu9250) JobEnded: {'identifier': 'dynamixel_mpu9250', 'rc': 0}
+[18.492321] (-) TimerEvent: {}
+[18.593238] (-) TimerEvent: {}
+[18.694722] (-) TimerEvent: {}
+[18.796112] (-) TimerEvent: {}
+[18.897857] (-) TimerEvent: {}
+[18.999043] (-) TimerEvent: {}
+[19.100305] (-) TimerEvent: {}
+[19.201700] (-) TimerEvent: {}
+[19.303046] (-) TimerEvent: {}
+[19.404271] (-) TimerEvent: {}
+[19.507003] (-) TimerEvent: {}
+[19.608992] (-) TimerEvent: {}
+[19.710807] (-) TimerEvent: {}
+[19.728933] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamixel_sdk_custom_interfaces/srv/get_position__type_support.cpp.o\x1b[0m\n'}
+[19.758807] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support_c.cpp.o\x1b[0m\n'}
+[19.811033] (-) TimerEvent: {}
+[19.912002] (-) TimerEvent: {}
+[20.013101] (-) TimerEvent: {}
+[20.114096] (-) TimerEvent: {}
+[20.215478] (-) TimerEvent: {}
+[20.316857] (-) TimerEvent: {}
+[20.418043] (-) TimerEvent: {}
+[20.519422] (-) TimerEvent: {}
+[20.620548] (-) TimerEvent: {}
+[20.691709] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.cpp.o\x1b[0m\n'}
+[20.720836] (-) TimerEvent: {}
+[20.821998] (-) TimerEvent: {}
+[20.923270] (-) TimerEvent: {}
+[21.016449] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamixel_sdk_custom_interfaces/srv/detail/dds_fastrtps/get_position__type_support.cpp.o\x1b[0m\n'}
+[21.023539] (-) TimerEvent: {}
+[21.124722] (-) TimerEvent: {}
+[21.225754] (-) TimerEvent: {}
+[21.326877] (-) TimerEvent: {}
+[21.428031] (-) TimerEvent: {}
+[21.519015] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[21.528287] (-) TimerEvent: {}
+[21.629675] (-) TimerEvent: {}
+[21.731052] (-) TimerEvent: {}
+[21.758316] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 43%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp\n'}
+[21.820029] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[21.831365] (-) TimerEvent: {}
+[21.932886] (-) TimerEvent: {}
+[22.034015] (-) TimerEvent: {}
+[22.135125] (-) TimerEvent: {}
+[22.205881] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support_c.cpp.o\x1b[0m\n'}
+[22.235384] (-) TimerEvent: {}
+[22.336410] (-) TimerEvent: {}
+[22.437552] (-) TimerEvent: {}
+[22.538565] (-) TimerEvent: {}
+[22.661920] (-) TimerEvent: {}
+[22.763182] (-) TimerEvent: {}
+[22.864512] (-) TimerEvent: {}
+[22.966032] (-) TimerEvent: {}
+[23.067082] (-) TimerEvent: {}
+[23.168084] (-) TimerEvent: {}
+[23.269184] (-) TimerEvent: {}
+[23.370126] (-) TimerEvent: {}
+[23.403444] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[23.470390] (-) TimerEvent: {}
+[23.571506] (-) TimerEvent: {}
+[23.655876] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 51%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[23.671933] (-) TimerEvent: {}
+[23.717617] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[23.772266] (-) TimerEvent: {}
+[23.804442] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[23.872490] (-) TimerEvent: {}
+[23.941883] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.c.o\x1b[0m\n'}
+[23.972930] (-) TimerEvent: {}
+[24.074489] (-) TimerEvent: {}
+[24.176078] (-) TimerEvent: {}
+[24.208176] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.c.o\x1b[0m\n'}
+[24.248145] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 61%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[24.276300] (-) TimerEvent: {}
+[24.377193] (-) TimerEvent: {}
+[24.444248] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[24.477475] (-) TimerEvent: {}
+[24.579717] (-) TimerEvent: {}
+[24.603574] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 64%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[24.680009] (-) TimerEvent: {}
+[24.759318] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[24.780264] (-) TimerEvent: {}
+[24.881236] (-) TimerEvent: {}
+[24.982908] (-) TimerEvent: {}
+[25.084808] (-) TimerEvent: {}
+[25.133896] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 66%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[25.185060] (-) TimerEvent: {}
+[25.272893] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_sdk_custom_interfaces/msg/set_position__type_support.cpp.o\x1b[0m\n'}
+[25.275227] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamixel_sdk_custom_interfaces/srv/get_position__type_support.cpp.o\x1b[0m\n'}
+[25.285249] (-) TimerEvent: {}
+[25.386029] (-) TimerEvent: {}
+[25.440973] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[25.486446] (-) TimerEvent: {}
+[25.587532] (-) TimerEvent: {}
+[25.616840] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c\n'}
+[25.687733] (-) TimerEvent: {}
+[25.714301] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target dynamixel_sdk_custom_interfaces\n'}
+[25.787951] (-) TimerEvent: {}
+[25.811227] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[25.888129] (-) TimerEvent: {}
+[25.988872] (-) TimerEvent: {}
+[26.090006] (-) TimerEvent: {}
+[26.191059] (-) TimerEvent: {}
+[26.291717] (-) TimerEvent: {}
+[26.392371] (-) TimerEvent: {}
+[26.493059] (-) TimerEvent: {}
+[26.593753] (-) TimerEvent: {}
+[26.694523] (-) TimerEvent: {}
+[26.795178] (-) TimerEvent: {}
+[26.895813] (-) TimerEvent: {}
+[26.996503] (-) TimerEvent: {}
+[27.097209] (-) TimerEvent: {}
+[27.197841] (-) TimerEvent: {}
+[27.298552] (-) TimerEvent: {}
+[27.399276] (-) TimerEvent: {}
+[27.499946] (-) TimerEvent: {}
+[27.600597] (-) TimerEvent: {}
+[27.701478] (-) TimerEvent: {}
+[27.802536] (-) TimerEvent: {}
+[27.858783] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 76%] Built target dynamixel_sdk_custom_interfaces__py\n'}
+[27.902717] (-) TimerEvent: {}
+[27.955180] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/msg/_set_position_s.c.o\x1b[0m\n'}
+[27.958026] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/srv/_get_position_s.c.o\x1b[0m\n'}
+[28.003010] (-) TimerEvent: {}
+[28.103834] (-) TimerEvent: {}
+[28.204710] (-) TimerEvent: {}
+[28.305517] (-) TimerEvent: {}
+[28.407135] (-) TimerEvent: {}
+[28.457087] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[28.507394] (-) TimerEvent: {}
+[28.608285] (-) TimerEvent: {}
+[28.659391] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 84%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_py\n'}
+[28.708518] (-) TimerEvent: {}
+[28.764291] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[28.765500] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[28.770977] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[28.808823] (-) TimerEvent: {}
+[28.910215] (-) TimerEvent: {}
+[29.011392] (-) TimerEvent: {}
+[29.113069] (-) TimerEvent: {}
+[29.214693] (-) TimerEvent: {}
+[29.316937] (-) TimerEvent: {}
+[29.346446] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[29.356693] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[29.364408] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[29.417143] (-) TimerEvent: {}
+[29.518271] (-) TimerEvent: {}
+[29.587324] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[29.598222] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[29.604360] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'[100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[29.618395] (-) TimerEvent: {}
+[29.650597] (dynamixel_sdk_custom_interfaces) CommandEnded: {'returncode': 0}
+[29.718569] (-) TimerEvent: {}
+[29.819357] (-) TimerEvent: {}
+[29.920064] (-) TimerEvent: {}
+[30.020833] (-) TimerEvent: {}
+[30.121627] (-) TimerEvent: {}
+[30.190729] (dynamixel_sdk_custom_interfaces) JobProgress: {'identifier': 'dynamixel_sdk_custom_interfaces', 'progress': 'install'}
+[30.192119] (dynamixel_sdk_custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sli/slither_ws/build/dynamixel_sdk_custom_interfaces'], 'cwd': '/home/sli/slither_ws/build/dynamixel_sdk_custom_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'sli'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/sli/slither_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sli'), ('OLDPWD', '/home/sli'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1546'), ('SYSTEMD_EXEC_PID', '1707'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2240'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sli/slither_ws/install:/home/sli/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sli'), ('JOURNAL_STREAM', '8:27088'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sli'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sli/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sli-desktop:@/tmp/.ICE-unix/1686,unix/sli-desktop:/tmp/.ICE-unix/1686'), ('INVOCATION_ID', '6069d7c8481d47e8915f762c141f8d4d'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KRCWS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/home/sli/ros2_ws/install/mpu6050_reader:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:27edb66b-21b3-45b5-8a8b-d61d6924e532'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sli/slither_ws/build/dynamixel_sdk_custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages:/home/sli/ros2_ws/install/mpu6050_reader/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/home/sli/ros2_ws/install/mpu6050_reader:/opt/ros/humble')]), 'shell': False}
+[30.221894] (-) TimerEvent: {}
+[30.231917] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.232960] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/dynamixel_sdk_custom_interfaces\n'}
+[30.234538] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces\n'}
+[30.235450] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv\n'}
+[30.236099] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail\n'}
+[30.236908] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.h\n'}
+[30.238414] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.h\n'}
+[30.239706] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.h\n'}
+[30.240943] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.c\n'}
+[30.242347] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/get_position.h\n'}
+[30.243458] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg\n'}
+[30.244104] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail\n'}
+[30.244904] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.h\n'}
+[30.246307] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.h\n'}
+[30.247532] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.c\n'}
+[30.248849] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.h\n'}
+[30.250412] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/set_position.h\n'}
+[30.251728] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[30.253758] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/library_path.sh\n'}
+[30.255801] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/library_path.dsv\n'}
+[30.257414] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so\n'}
+[30.260014] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so" to ""\n'}
+[30.260542] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces\n'}
+[30.260914] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv\n'}
+[30.261268] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail\n'}
+[30.261723] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_c.h\n'}
+[30.263077] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg\n'}
+[30.263525] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail\n'}
+[30.264167] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_c.h\n'}
+[30.265928] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[30.267923] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[30.270855] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[30.271433] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces\n'}
+[30.271868] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv\n'}
+[30.272234] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail\n'}
+[30.272596] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.hpp\n'}
+[30.273985] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__builder.hpp\n'}
+[30.275253] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__traits.hpp\n'}
+[30.276554] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/get_position.hpp\n'}
+[30.277707] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg\n'}
+[30.278260] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail\n'}
+[30.278874] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__traits.hpp\n'}
+[30.280283] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.hpp\n'}
+[30.281577] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__builder.hpp\n'}
+[30.282855] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/set_position.hpp\n'}
+[30.284175] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces\n'}
+[30.284699] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv\n'}
+[30.285132] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail\n'}
+[30.285697] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[30.287071] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/dds_fastrtps\n'}
+[30.287809] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg\n'}
+[30.288236] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail\n'}
+[30.288656] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/dds_fastrtps\n'}
+[30.289553] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[30.291035] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[30.292618] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[30.295582] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[30.296107] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces\n'}
+[30.296498] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv\n'}
+[30.296846] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail\n'}
+[30.297268] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_c.h\n'}
+[30.298812] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.c\n'}
+[30.300081] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg\n'}
+[30.300556] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail\n'}
+[30.301056] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_c.h\n'}
+[30.302585] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.c\n'}
+[30.304018] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[30.305676] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[30.308268] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[30.308807] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so\n'}
+[30.311092] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[30.311565] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces\n'}
+[30.312017] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv\n'}
+[30.312445] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail\n'}
+[30.312886] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.cpp\n'}
+[30.314491] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.315801] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg\n'}
+[30.316288] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail\n'}
+[30.316750] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[30.318252] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.cpp\n'}
+[30.319882] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[30.321991] (-) TimerEvent: {}
+[30.322588] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[30.323234] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so\n'}
+[30.325621] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[30.326187] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/pythonpath.sh\n'}
+[30.327322] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/pythonpath.dsv\n'}
+[30.328493] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.7.60-py3.10.egg-info\n'}
+[30.329519] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.7.60-py3.10.egg-info/dependency_links.txt\n'}
+[30.331037] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.7.60-py3.10.egg-info/top_level.txt\n'}
+[30.332286] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.7.60-py3.10.egg-info/SOURCES.txt\n'}
+[30.333728] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.7.60-py3.10.egg-info/PKG-INFO\n'}
+[30.335094] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces\n'}
+[30.336195] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[30.337705] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv\n'}
+[30.338465] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv/_get_position.py\n'}
+[30.339758] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv/__init__.py\n'}
+[30.340879] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv/_get_position_s.c\n'}
+[30.342126] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[30.343664] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg\n'}
+[30.344383] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg/_set_position.py\n'}
+[30.345611] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg/__init__.py\n'}
+[30.346851] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg/_set_position_s.c\n'}
+[30.348137] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[30.349846] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[30.351486] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/__init__.py\n'}
+[30.352798] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[30.355059] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[30.356647] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so\n'}
+[30.422245] (-) TimerEvent: {}
+[30.523146] (-) TimerEvent: {}
+[30.531848] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b"Listing '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces'...\n"}
+[30.533522] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b"Compiling '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/__init__.py'...\n"}
+[30.534938] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b"Listing '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg'...\n"}
+[30.535953] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b"Compiling '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg/__init__.py'...\n"}
+[30.537071] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b"Compiling '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg/_set_position.py'...\n"}
+[30.538118] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b"Listing '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv'...\n"}
+[30.539075] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b"Compiling '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv/__init__.py'...\n"}
+[30.540259] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b"Compiling '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv/_get_position.py'...\n"}
+[30.559939] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[30.562849] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[30.564502] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[30.568134] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[30.569689] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[30.572618] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[30.573196] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so\n'}
+[30.575846] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so" to ""\n'}
+[30.576513] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.idl\n'}
+[30.578199] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.idl\n'}
+[30.579480] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.msg\n'}
+[30.580677] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.srv\n'}
+[30.581935] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition_Request.msg\n'}
+[30.583310] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition_Response.msg\n'}
+[30.584901] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_custom_interfaces\n'}
+[30.586611] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_custom_interfaces\n'}
+[30.588180] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/ament_prefix_path.sh\n'}
+[30.589413] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[30.590886] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/path.sh\n'}
+[30.592133] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/path.dsv\n'}
+[30.593395] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.bash\n'}
+[30.594639] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.sh\n'}
+[30.595947] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.zsh\n'}
+[30.597339] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.dsv\n'}
+[30.598756] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv\n'}
+[30.600304] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/packages/dynamixel_sdk_custom_interfaces\n'}
+[30.601995] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[30.603622] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[30.605285] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[30.607125] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[30.608856] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[30.610532] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[30.612192] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[30.613890] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[30.615597] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[30.617287] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[30.618964] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[30.620613] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[30.622310] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[30.623244] (-) TimerEvent: {}
+[30.624027] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[30.625717] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[30.627470] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_pyExport.cmake\n'}
+[30.629108] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[30.630600] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[30.631946] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[30.633401] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[30.635079] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[30.636557] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[30.638020] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[30.639484] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[30.640894] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig.cmake\n'}
+[30.642004] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig-version.cmake\n'}
+[30.643454] (dynamixel_sdk_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.xml\n'}
+[30.651687] (dynamixel_sdk_custom_interfaces) CommandEnded: {'returncode': 0}
+[30.723488] (-) TimerEvent: {}
+[30.824210] (-) TimerEvent: {}
+[30.924888] (-) TimerEvent: {}
+[31.025731] (-) TimerEvent: {}
+[31.126547] (-) TimerEvent: {}
+[31.227496] (-) TimerEvent: {}
+[31.271127] (dynamixel_sdk_custom_interfaces) JobEnded: {'identifier': 'dynamixel_sdk_custom_interfaces', 'rc': 0}
+[31.275183] (dynamixel_sdk_examples) JobStarted: {'identifier': 'dynamixel_sdk_examples'}
+[31.327729] (-) TimerEvent: {}
+[31.332510] (dynamixel_sdk_examples) JobProgress: {'identifier': 'dynamixel_sdk_examples', 'progress': 'cmake'}
+[31.335778] (dynamixel_sdk_examples) Command: {'cmd': ['/usr/bin/cmake', '/home/sli/slither_ws/src/DynamixelSDK/dynamixel_sdk_examples', '-DCMAKE_INSTALL_PREFIX=/home/sli/slither_ws/install/dynamixel_sdk_examples'], 'cwd': '/home/sli/slither_ws/build/dynamixel_sdk_examples', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'sli'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/sli/slither_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sli'), ('OLDPWD', '/home/sli'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1546'), ('SYSTEMD_EXEC_PID', '1707'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2240'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sli/slither_ws/install:/home/sli/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sli'), ('JOURNAL_STREAM', '8:27088'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sli'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sli/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sli-desktop:@/tmp/.ICE-unix/1686,unix/sli-desktop:/tmp/.ICE-unix/1686'), ('INVOCATION_ID', '6069d7c8481d47e8915f762c141f8d4d'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KRCWS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/home/sli/ros2_ws/install/mpu6050_reader:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:27edb66b-21b3-45b5-8a8b-d61d6924e532'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sli/slither_ws/build/dynamixel_sdk_examples'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages:/home/sli/ros2_ws/install/mpu6050_reader/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/home/sli/ros2_ws/install/mpu6050_reader:/opt/ros/humble')]), 'shell': False}
+[31.427953] (-) TimerEvent: {}
+[31.528888] (-) TimerEvent: {}
+[31.629639] (-) TimerEvent: {}
+[31.631164] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[31.729849] (-) TimerEvent: {}
+[31.830679] (-) TimerEvent: {}
+[31.908978] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[31.930865] (-) TimerEvent: {}
+[31.943065] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[32.031053] (-) TimerEvent: {}
+[32.131814] (-) TimerEvent: {}
+[32.232907] (-) TimerEvent: {}
+[32.293383] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[32.321828] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[32.322645] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[32.324067] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[32.333077] (-) TimerEvent: {}
+[32.335189] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[32.433451] (-) TimerEvent: {}
+[32.534363] (-) TimerEvent: {}
+[32.635289] (-) TimerEvent: {}
+[32.727669] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[32.735405] (-) TimerEvent: {}
+[32.754530] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[32.755451] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[32.757045] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[32.786409] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[32.835595] (-) TimerEvent: {}
+[32.936253] (-) TimerEvent: {}
+[33.036912] (-) TimerEvent: {}
+[33.137585] (-) TimerEvent: {}
+[33.238330] (-) TimerEvent: {}
+[33.339205] (-) TimerEvent: {}
+[33.440013] (-) TimerEvent: {}
+[33.540676] (-) TimerEvent: {}
+[33.597667] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[33.640884] (-) TimerEvent: {}
+[33.741557] (-) TimerEvent: {}
+[33.842279] (-) TimerEvent: {}
+[33.942941] (-) TimerEvent: {}
+[34.043628] (-) TimerEvent: {}
+[34.144280] (-) TimerEvent: {}
+[34.217112] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Found dynamixel_sdk: 3.7.60 (/home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)\n'}
+[34.224104] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Found dynamixel_sdk_custom_interfaces: 3.7.60 (/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake)\n'}
+[34.244459] (-) TimerEvent: {}
+[34.345150] (-) TimerEvent: {}
+[34.445843] (-) TimerEvent: {}
+[34.546605] (-) TimerEvent: {}
+[34.557603] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[34.610817] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[34.646774] (-) TimerEvent: {}
+[34.676318] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[34.746951] (-) TimerEvent: {}
+[34.760653] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[34.847132] (-) TimerEvent: {}
+[34.875544] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[34.947306] (-) TimerEvent: {}
+[35.044052] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[35.047454] (-) TimerEvent: {}
+[35.148226] (-) TimerEvent: {}
+[35.248958] (-) TimerEvent: {}
+[35.349739] (-) TimerEvent: {}
+[35.450581] (-) TimerEvent: {}
+[35.513663] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[35.550717] (-) TimerEvent: {}
+[35.556791] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[35.650898] (-) TimerEvent: {}
+[35.751669] (-) TimerEvent: {}
+[35.852580] (-) TimerEvent: {}
+[35.953254] (-) TimerEvent: {}
+[36.053986] (-) TimerEvent: {}
+[36.154846] (-) TimerEvent: {}
+[36.255672] (-) TimerEvent: {}
+[36.270871] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[36.355846] (-) TimerEvent: {}
+[36.456597] (-) TimerEvent: {}
+[36.544542] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[36.556809] (-) TimerEvent: {}
+[36.657617] (-) TimerEvent: {}
+[36.758380] (-) TimerEvent: {}
+[36.859263] (-) TimerEvent: {}
+[36.960138] (-) TimerEvent: {}
+[36.979755] (dynamixel_sdk_examples) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[37.060306] (-) TimerEvent: {}
+[37.111234] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[37.160526] (-) TimerEvent: {}
+[37.261287] (-) TimerEvent: {}
+[37.362058] (-) TimerEvent: {}
+[37.462847] (-) TimerEvent: {}
+[37.472349] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[37.473815] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[37.563047] (-) TimerEvent: {}
+[37.663762] (-) TimerEvent: {}
+[37.764650] (-) TimerEvent: {}
+[37.831845] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[37.836489] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[37.864853] (-) TimerEvent: {}
+[37.965840] (-) TimerEvent: {}
+[38.066683] (-) TimerEvent: {}
+[38.167571] (-) TimerEvent: {}
+[38.251964] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[38.267756] (-) TimerEvent: {}
+[38.368488] (-) TimerEvent: {}
+[38.469175] (-) TimerEvent: {}
+[38.569878] (-) TimerEvent: {}
+[38.670640] (-) TimerEvent: {}
+[38.771379] (-) TimerEvent: {}
+[38.775476] (dynamixel_sdk_examples) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[38.784442] (dynamixel_sdk_examples) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[38.785141] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/sli/slither_ws/src/DynamixelSDK/dynamixel_sdk_examples/include\n'}
+[38.785559] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[38.792923] (dynamixel_sdk_examples) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[38.793501] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[38.798266] (dynamixel_sdk_examples) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[38.807323] (dynamixel_sdk_examples) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[38.807917] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[38.810950] (dynamixel_sdk_examples) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[38.820312] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Configuring done\n'}
+[38.871561] (-) TimerEvent: {}
+[38.880187] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Generating done\n'}
+[38.887294] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Build files have been written to: /home/sli/slither_ws/build/dynamixel_sdk_examples\n'}
+[38.927073] (dynamixel_sdk_examples) CommandEnded: {'returncode': 0}
+[38.929357] (dynamixel_sdk_examples) JobProgress: {'identifier': 'dynamixel_sdk_examples', 'progress': 'build'}
+[38.933558] (dynamixel_sdk_examples) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sli/slither_ws/build/dynamixel_sdk_examples', '--', '-j4', '-l4'], 'cwd': '/home/sli/slither_ws/build/dynamixel_sdk_examples', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'sli'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/sli/slither_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sli'), ('OLDPWD', '/home/sli'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1546'), ('SYSTEMD_EXEC_PID', '1707'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2240'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sli/slither_ws/install:/home/sli/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sli'), ('JOURNAL_STREAM', '8:27088'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sli'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sli/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sli-desktop:@/tmp/.ICE-unix/1686,unix/sli-desktop:/tmp/.ICE-unix/1686'), ('INVOCATION_ID', '6069d7c8481d47e8915f762c141f8d4d'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KRCWS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/home/sli/ros2_ws/install/mpu6050_reader:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:27edb66b-21b3-45b5-8a8b-d61d6924e532'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sli/slither_ws/build/dynamixel_sdk_examples'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages:/home/sli/ros2_ws/install/mpu6050_reader/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/home/sli/ros2_ws/install/mpu6050_reader:/opt/ros/humble')]), 'shell': False}
+[38.971761] (-) TimerEvent: {}
+[39.072595] (-) TimerEvent: {}
+[39.165787] (dynamixel_sdk_examples) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o\x1b[0m\n'}
+[39.172759] (-) TimerEvent: {}
+[39.273454] (-) TimerEvent: {}
+[39.374209] (-) TimerEvent: {}
+[39.474894] (-) TimerEvent: {}
+[39.575592] (-) TimerEvent: {}
+[39.676361] (-) TimerEvent: {}
+[39.777063] (-) TimerEvent: {}
+[39.877762] (-) TimerEvent: {}
+[39.978488] (-) TimerEvent: {}
+[40.079176] (-) TimerEvent: {}
+[40.179914] (-) TimerEvent: {}
+[40.280795] (-) TimerEvent: {}
+[40.381529] (-) TimerEvent: {}
+[40.482311] (-) TimerEvent: {}
+[40.583077] (-) TimerEvent: {}
+[40.683920] (-) TimerEvent: {}
+[40.784897] (-) TimerEvent: {}
+[40.885621] (-) TimerEvent: {}
+[40.986433] (-) TimerEvent: {}
+[41.087347] (-) TimerEvent: {}
+[41.188127] (-) TimerEvent: {}
+[41.288947] (-) TimerEvent: {}
+[41.389743] (-) TimerEvent: {}
+[41.490529] (-) TimerEvent: {}
+[41.591274] (-) TimerEvent: {}
+[41.692044] (-) TimerEvent: {}
+[41.792834] (-) TimerEvent: {}
+[41.893690] (-) TimerEvent: {}
+[41.994596] (-) TimerEvent: {}
+[42.095430] (-) TimerEvent: {}
+[42.196271] (-) TimerEvent: {}
+[42.297061] (-) TimerEvent: {}
+[42.397894] (-) TimerEvent: {}
+[42.498811] (-) TimerEvent: {}
+[42.599578] (-) TimerEvent: {}
+[42.700515] (-) TimerEvent: {}
+[42.801345] (-) TimerEvent: {}
+[42.902190] (-) TimerEvent: {}
+[43.002955] (-) TimerEvent: {}
+[43.103743] (-) TimerEvent: {}
+[43.204599] (-) TimerEvent: {}
+[43.305504] (-) TimerEvent: {}
+[43.406337] (-) TimerEvent: {}
+[43.507097] (-) TimerEvent: {}
+[43.607880] (-) TimerEvent: {}
+[43.708747] (-) TimerEvent: {}
+[43.809620] (-) TimerEvent: {}
+[43.910363] (-) TimerEvent: {}
+[44.011110] (-) TimerEvent: {}
+[44.111872] (-) TimerEvent: {}
+[44.212688] (-) TimerEvent: {}
+[44.313484] (-) TimerEvent: {}
+[44.414336] (-) TimerEvent: {}
+[44.515110] (-) TimerEvent: {}
+[44.615876] (-) TimerEvent: {}
+[44.716695] (-) TimerEvent: {}
+[44.817506] (-) TimerEvent: {}
+[44.918309] (-) TimerEvent: {}
+[45.019377] (-) TimerEvent: {}
+[45.120300] (-) TimerEvent: {}
+[45.221207] (-) TimerEvent: {}
+[45.321991] (-) TimerEvent: {}
+[45.422820] (-) TimerEvent: {}
+[45.523574] (-) TimerEvent: {}
+[45.624351] (-) TimerEvent: {}
+[45.725147] (-) TimerEvent: {}
+[45.825926] (-) TimerEvent: {}
+[45.926767] (-) TimerEvent: {}
+[46.027541] (-) TimerEvent: {}
+[46.128376] (-) TimerEvent: {}
+[46.229165] (-) TimerEvent: {}
+[46.329986] (-) TimerEvent: {}
+[46.430879] (-) TimerEvent: {}
+[46.531669] (-) TimerEvent: {}
+[46.632558] (-) TimerEvent: {}
+[46.733570] (-) TimerEvent: {}
+[46.834616] (-) TimerEvent: {}
+[46.935725] (-) TimerEvent: {}
+[47.036732] (-) TimerEvent: {}
+[47.137617] (-) TimerEvent: {}
+[47.238445] (-) TimerEvent: {}
+[47.339300] (-) TimerEvent: {}
+[47.440292] (-) TimerEvent: {}
+[47.541108] (-) TimerEvent: {}
+[47.641925] (-) TimerEvent: {}
+[47.742750] (-) TimerEvent: {}
+[47.843582] (-) TimerEvent: {}
+[47.944412] (-) TimerEvent: {}
+[48.045193] (-) TimerEvent: {}
+[48.145988] (-) TimerEvent: {}
+[48.246842] (-) TimerEvent: {}
+[48.347804] (-) TimerEvent: {}
+[48.448802] (-) TimerEvent: {}
+[48.549590] (-) TimerEvent: {}
+[48.650424] (-) TimerEvent: {}
+[48.751236] (-) TimerEvent: {}
+[48.852091] (-) TimerEvent: {}
+[48.952916] (-) TimerEvent: {}
+[49.053753] (-) TimerEvent: {}
+[49.154614] (-) TimerEvent: {}
+[49.255382] (-) TimerEvent: {}
+[49.356165] (-) TimerEvent: {}
+[49.456974] (-) TimerEvent: {}
+[49.557773] (-) TimerEvent: {}
+[49.658638] (-) TimerEvent: {}
+[49.759393] (-) TimerEvent: {}
+[49.860167] (-) TimerEvent: {}
+[49.960930] (-) TimerEvent: {}
+[50.061729] (-) TimerEvent: {}
+[50.162608] (-) TimerEvent: {}
+[50.263381] (-) TimerEvent: {}
+[50.364210] (-) TimerEvent: {}
+[50.464990] (-) TimerEvent: {}
+[50.565765] (-) TimerEvent: {}
+[50.666636] (-) TimerEvent: {}
+[50.767408] (-) TimerEvent: {}
+[50.868226] (-) TimerEvent: {}
+[50.968975] (-) TimerEvent: {}
+[51.069732] (-) TimerEvent: {}
+[51.170605] (-) TimerEvent: {}
+[51.271608] (-) TimerEvent: {}
+[51.372664] (-) TimerEvent: {}
+[51.473561] (-) TimerEvent: {}
+[51.574564] (-) TimerEvent: {}
+[51.675420] (-) TimerEvent: {}
+[51.776206] (-) TimerEvent: {}
+[51.876960] (-) TimerEvent: {}
+[51.977728] (-) TimerEvent: {}
+[52.078599] (-) TimerEvent: {}
+[52.179386] (-) TimerEvent: {}
+[52.280173] (-) TimerEvent: {}
+[52.380967] (-) TimerEvent: {}
+[52.481767] (-) TimerEvent: {}
+[52.582608] (-) TimerEvent: {}
+[52.683382] (-) TimerEvent: {}
+[52.784182] (-) TimerEvent: {}
+[52.884974] (-) TimerEvent: {}
+[52.985757] (-) TimerEvent: {}
+[53.086613] (-) TimerEvent: {}
+[53.187390] (-) TimerEvent: {}
+[53.288186] (-) TimerEvent: {}
+[53.389090] (-) TimerEvent: {}
+[53.489921] (-) TimerEvent: {}
+[53.590741] (-) TimerEvent: {}
+[53.691519] (-) TimerEvent: {}
+[53.792271] (-) TimerEvent: {}
+[53.893050] (-) TimerEvent: {}
+[53.993878] (-) TimerEvent: {}
+[54.094695] (-) TimerEvent: {}
+[54.195538] (-) TimerEvent: {}
+[54.296288] (-) TimerEvent: {}
+[54.397088] (-) TimerEvent: {}
+[54.497844] (-) TimerEvent: {}
+[54.598668] (-) TimerEvent: {}
+[54.699396] (-) TimerEvent: {}
+[54.800144] (-) TimerEvent: {}
+[54.900912] (-) TimerEvent: {}
+[55.001686] (-) TimerEvent: {}
+[55.102478] (-) TimerEvent: {}
+[55.203277] (-) TimerEvent: {}
+[55.304043] (-) TimerEvent: {}
+[55.404814] (-) TimerEvent: {}
+[55.505603] (-) TimerEvent: {}
+[55.606405] (-) TimerEvent: {}
+[55.707229] (-) TimerEvent: {}
+[55.807999] (-) TimerEvent: {}
+[55.908769] (-) TimerEvent: {}
+[56.009554] (-) TimerEvent: {}
+[56.110334] (-) TimerEvent: {}
+[56.211166] (-) TimerEvent: {}
+[56.311974] (-) TimerEvent: {}
+[56.412807] (-) TimerEvent: {}
+[56.513634] (-) TimerEvent: {}
+[56.614468] (-) TimerEvent: {}
+[56.715281] (-) TimerEvent: {}
+[56.816055] (-) TimerEvent: {}
+[56.916829] (-) TimerEvent: {}
+[57.017617] (-) TimerEvent: {}
+[57.118422] (-) TimerEvent: {}
+[57.219212] (-) TimerEvent: {}
+[57.319963] (-) TimerEvent: {}
+[57.420759] (-) TimerEvent: {}
+[57.521552] (-) TimerEvent: {}
+[57.622309] (-) TimerEvent: {}
+[57.723097] (-) TimerEvent: {}
+[57.823845] (-) TimerEvent: {}
+[57.924612] (-) TimerEvent: {}
+[58.025484] (-) TimerEvent: {}
+[58.126607] (-) TimerEvent: {}
+[58.227300] (-) TimerEvent: {}
+[58.327991] (-) TimerEvent: {}
+[58.428710] (-) TimerEvent: {}
+[58.529434] (-) TimerEvent: {}
+[58.630339] (-) TimerEvent: {}
+[58.731166] (-) TimerEvent: {}
+[58.832002] (-) TimerEvent: {}
+[58.932962] (-) TimerEvent: {}
+[59.033782] (-) TimerEvent: {}
+[59.134645] (-) TimerEvent: {}
+[59.235535] (-) TimerEvent: {}
+[59.336764] (-) TimerEvent: {}
+[59.437683] (-) TimerEvent: {}
+[59.538548] (-) TimerEvent: {}
+[59.639334] (-) TimerEvent: {}
+[59.740164] (-) TimerEvent: {}
+[59.840924] (-) TimerEvent: {}
+[59.941723] (-) TimerEvent: {}
+[60.042804] (-) TimerEvent: {}
+[60.143869] (-) TimerEvent: {}
+[60.245048] (-) TimerEvent: {}
+[60.346628] (-) TimerEvent: {}
+[60.447400] (-) TimerEvent: {}
+[60.548242] (-) TimerEvent: {}
+[60.649073] (-) TimerEvent: {}
+[60.749923] (-) TimerEvent: {}
+[60.850803] (-) TimerEvent: {}
+[60.951543] (-) TimerEvent: {}
+[61.052304] (-) TimerEvent: {}
+[61.153096] (-) TimerEvent: {}
+[61.253887] (-) TimerEvent: {}
+[61.354695] (-) TimerEvent: {}
+[61.455382] (-) TimerEvent: {}
+[61.556089] (-) TimerEvent: {}
+[61.656859] (-) TimerEvent: {}
+[61.757649] (-) TimerEvent: {}
+[61.858464] (-) TimerEvent: {}
+[61.959229] (-) TimerEvent: {}
+[62.060015] (-) TimerEvent: {}
+[62.160843] (-) TimerEvent: {}
+[62.261621] (-) TimerEvent: {}
+[62.362364] (-) TimerEvent: {}
+[62.463096] (-) TimerEvent: {}
+[62.572173] (-) TimerEvent: {}
+[62.673052] (-) TimerEvent: {}
+[62.773817] (-) TimerEvent: {}
+[62.874599] (-) TimerEvent: {}
+[62.975337] (-) TimerEvent: {}
+[63.076164] (-) TimerEvent: {}
+[63.176957] (-) TimerEvent: {}
+[63.277731] (-) TimerEvent: {}
+[63.378533] (-) TimerEvent: {}
+[63.479276] (-) TimerEvent: {}
+[63.579991] (-) TimerEvent: {}
+[63.680738] (-) TimerEvent: {}
+[63.781478] (-) TimerEvent: {}
+[63.882316] (-) TimerEvent: {}
+[63.983134] (-) TimerEvent: {}
+[64.083853] (-) TimerEvent: {}
+[64.184662] (-) TimerEvent: {}
+[64.285455] (-) TimerEvent: {}
+[64.386236] (-) TimerEvent: {}
+[64.486968] (-) TimerEvent: {}
+[64.587700] (-) TimerEvent: {}
+[64.688456] (-) TimerEvent: {}
+[64.789216] (-) TimerEvent: {}
+[64.889958] (-) TimerEvent: {}
+[64.990739] (-) TimerEvent: {}
+[65.091486] (-) TimerEvent: {}
+[65.192248] (-) TimerEvent: {}
+[65.293085] (-) TimerEvent: {}
+[65.393821] (-) TimerEvent: {}
+[65.494581] (-) TimerEvent: {}
+[65.595330] (-) TimerEvent: {}
+[65.696070] (-) TimerEvent: {}
+[65.796868] (-) TimerEvent: {}
+[65.897617] (-) TimerEvent: {}
+[65.998368] (-) TimerEvent: {}
+[66.099142] (-) TimerEvent: {}
+[66.199901] (-) TimerEvent: {}
+[66.300666] (-) TimerEvent: {}
+[66.401429] (-) TimerEvent: {}
+[66.502185] (-) TimerEvent: {}
+[66.602937] (-) TimerEvent: {}
+[66.703686] (-) TimerEvent: {}
+[66.804451] (-) TimerEvent: {}
+[66.905262] (-) TimerEvent: {}
+[67.005989] (-) TimerEvent: {}
+[67.106768] (-) TimerEvent: {}
+[67.207510] (-) TimerEvent: {}
+[67.308280] (-) TimerEvent: {}
+[67.409012] (-) TimerEvent: {}
+[67.509905] (-) TimerEvent: {}
+[67.610785] (-) TimerEvent: {}
+[67.711603] (-) TimerEvent: {}
+[67.812318] (-) TimerEvent: {}
+[67.913077] (-) TimerEvent: {}
+[68.013886] (-) TimerEvent: {}
+[68.114699] (-) TimerEvent: {}
+[68.215472] (-) TimerEvent: {}
+[68.316221] (-) TimerEvent: {}
+[68.416985] (-) TimerEvent: {}
+[68.517816] (-) TimerEvent: {}
+[68.618599] (-) TimerEvent: {}
+[68.719364] (-) TimerEvent: {}
+[68.820115] (-) TimerEvent: {}
+[68.920894] (-) TimerEvent: {}
+[69.021705] (-) TimerEvent: {}
+[69.122507] (-) TimerEvent: {}
+[69.223265] (-) TimerEvent: {}
+[69.324026] (-) TimerEvent: {}
+[69.424814] (-) TimerEvent: {}
+[69.525632] (-) TimerEvent: {}
+[69.626432] (-) TimerEvent: {}
+[69.727223] (-) TimerEvent: {}
+[69.828122] (-) TimerEvent: {}
+[69.929109] (-) TimerEvent: {}
+[70.030291] (-) TimerEvent: {}
+[70.131212] (-) TimerEvent: {}
+[70.231989] (-) TimerEvent: {}
+[70.332761] (-) TimerEvent: {}
+[70.433547] (-) TimerEvent: {}
+[70.534326] (-) TimerEvent: {}
+[70.635072] (-) TimerEvent: {}
+[70.735811] (-) TimerEvent: {}
+[70.836563] (-) TimerEvent: {}
+[70.937377] (-) TimerEvent: {}
+[71.038104] (-) TimerEvent: {}
+[71.139040] (-) TimerEvent: {}
+[71.240144] (-) TimerEvent: {}
+[71.341350] (-) TimerEvent: {}
+[71.442317] (-) TimerEvent: {}
+[71.543072] (-) TimerEvent: {}
+[71.643874] (-) TimerEvent: {}
+[71.744749] (-) TimerEvent: {}
+[71.845477] (-) TimerEvent: {}
+[71.946219] (-) TimerEvent: {}
+[72.047015] (-) TimerEvent: {}
+[72.147831] (-) TimerEvent: {}
+[72.248587] (-) TimerEvent: {}
+[72.349384] (-) TimerEvent: {}
+[72.450202] (-) TimerEvent: {}
+[72.550946] (-) TimerEvent: {}
+[72.651664] (-) TimerEvent: {}
+[72.752412] (-) TimerEvent: {}
+[72.853198] (-) TimerEvent: {}
+[72.953965] (-) TimerEvent: {}
+[73.054809] (-) TimerEvent: {}
+[73.155529] (-) TimerEvent: {}
+[73.256256] (-) TimerEvent: {}
+[73.357065] (-) TimerEvent: {}
+[73.457829] (-) TimerEvent: {}
+[73.558617] (-) TimerEvent: {}
+[73.659355] (-) TimerEvent: {}
+[73.760094] (-) TimerEvent: {}
+[73.860845] (-) TimerEvent: {}
+[73.961599] (-) TimerEvent: {}
+[74.062354] (-) TimerEvent: {}
+[74.163075] (-) TimerEvent: {}
+[74.263845] (-) TimerEvent: {}
+[74.365073] (-) TimerEvent: {}
+[74.466564] (-) TimerEvent: {}
+[74.567469] (-) TimerEvent: {}
+[74.668332] (-) TimerEvent: {}
+[74.769360] (-) TimerEvent: {}
+[74.870562] (-) TimerEvent: {}
+[74.971481] (-) TimerEvent: {}
+[75.072538] (-) TimerEvent: {}
+[75.169919] (dynamixel_sdk_examples) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable read_write_node\x1b[0m\n'}
+[75.172801] (-) TimerEvent: {}
+[75.273689] (-) TimerEvent: {}
+[75.375155] (-) TimerEvent: {}
+[75.476174] (-) TimerEvent: {}
+[75.577196] (-) TimerEvent: {}
+[75.678463] (-) TimerEvent: {}
+[75.779727] (-) TimerEvent: {}
+[75.880714] (-) TimerEvent: {}
+[75.981920] (-) TimerEvent: {}
+[76.083024] (-) TimerEvent: {}
+[76.184098] (-) TimerEvent: {}
+[76.284779] (-) TimerEvent: {}
+[76.385458] (-) TimerEvent: {}
+[76.486410] (-) TimerEvent: {}
+[76.587439] (-) TimerEvent: {}
+[76.688173] (-) TimerEvent: {}
+[76.789167] (-) TimerEvent: {}
+[76.890406] (-) TimerEvent: {}
+[76.991087] (-) TimerEvent: {}
+[77.044578] (dynamixel_sdk_examples) StdoutLine: {'line': b'[100%] Built target read_write_node\n'}
+[77.087406] (dynamixel_sdk_examples) CommandEnded: {'returncode': 0}
+[77.093599] (-) TimerEvent: {}
+[77.195520] (-) TimerEvent: {}
+[77.238277] (dynamixel_sdk_examples) JobProgress: {'identifier': 'dynamixel_sdk_examples', 'progress': 'install'}
+[77.239291] (dynamixel_sdk_examples) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sli/slither_ws/build/dynamixel_sdk_examples'], 'cwd': '/home/sli/slither_ws/build/dynamixel_sdk_examples', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'sli'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/sli/slither_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sli'), ('OLDPWD', '/home/sli'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1546'), ('SYSTEMD_EXEC_PID', '1707'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2240'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sli/slither_ws/install:/home/sli/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sli'), ('JOURNAL_STREAM', '8:27088'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sli'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sli/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sli-desktop:@/tmp/.ICE-unix/1686,unix/sli-desktop:/tmp/.ICE-unix/1686'), ('INVOCATION_ID', '6069d7c8481d47e8915f762c141f8d4d'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KRCWS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/home/sli/ros2_ws/install/mpu6050_reader:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:27edb66b-21b3-45b5-8a8b-d61d6924e532'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sli/slither_ws/build/dynamixel_sdk_examples'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages:/home/sli/ros2_ws/install/mpu6050_reader/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/home/sli/ros2_ws/install/mpu6050_reader:/opt/ros/humble')]), 'shell': False}
+[77.276273] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[77.277025] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node\n'}
+[77.295702] (-) TimerEvent: {}
+[77.306924] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Set runtime path of "/home/sli/slither_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node" to ""\n'}
+[77.307847] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples\n'}
+[77.309562] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples\n'}
+[77.311129] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh\n'}
+[77.312321] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.dsv\n'}
+[77.313502] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.sh\n'}
+[77.314640] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.dsv\n'}
+[77.315787] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.bash\n'}
+[77.316915] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.sh\n'}
+[77.318102] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.zsh\n'}
+[77.319344] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.dsv\n'}
+[77.320452] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv\n'}
+[77.321827] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/packages/dynamixel_sdk_examples\n'}
+[77.323571] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake\n'}
+[77.324738] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake\n'}
+[77.326114] (dynamixel_sdk_examples) StdoutLine: {'line': b'-- Installing: /home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.xml\n'}
+[77.333555] (dynamixel_sdk_examples) CommandEnded: {'returncode': 0}
+[77.395902] (-) TimerEvent: {}
+[77.496878] (-) TimerEvent: {}
+[77.544422] (dynamixel_sdk_examples) JobEnded: {'identifier': 'dynamixel_sdk_examples', 'rc': 0}
+[77.547483] (-) EventReactorShutdown: {}

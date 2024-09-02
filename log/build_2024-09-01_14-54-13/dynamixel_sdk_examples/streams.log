@@ -1,0 +1,22 @@
+[0.102s] Invoking command in '/home/sli/slither_ws/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/locomotion_wire:/home/sli/slither_ws/install/locomotion:/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/opt/ros/humble /usr/bin/cmake --build /home/sli/slither_ws/build/dynamixel_sdk_examples -- -j4 -l4
+[0.432s] [100%] Built target read_write_node
+[1.837s] Invoked command in '/home/sli/slither_ws/build/dynamixel_sdk_examples' returned '0': CMAKE_PREFIX_PATH=/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/locomotion_wire:/home/sli/slither_ws/install/locomotion:/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/opt/ros/humble /usr/bin/cmake --build /home/sli/slither_ws/build/dynamixel_sdk_examples -- -j4 -l4
+[3.686s] Invoking command in '/home/sli/slither_ws/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/locomotion_wire:/home/sli/slither_ws/install/locomotion:/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/opt/ros/humble /usr/bin/cmake --install /home/sli/slither_ws/build/dynamixel_sdk_examples
+[3.760s] -- Install configuration: ""
+[3.762s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node
+[3.766s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples
+[3.766s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples
+[3.768s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh
+[3.768s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.dsv
+[3.770s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.sh
+[3.778s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.dsv
+[3.779s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.bash
+[3.780s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.sh
+[3.780s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.zsh
+[3.781s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.dsv
+[3.781s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv
+[3.782s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/packages/dynamixel_sdk_examples
+[3.783s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake
+[3.783s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake
+[3.784s] -- Up-to-date: /home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.xml
+[3.831s] Invoked command in '/home/sli/slither_ws/build/dynamixel_sdk_examples' returned '0': CMAKE_PREFIX_PATH=/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/locomotion_wire:/home/sli/slither_ws/install/locomotion:/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/opt/ros/humble /usr/bin/cmake --install /home/sli/slither_ws/build/dynamixel_sdk_examples

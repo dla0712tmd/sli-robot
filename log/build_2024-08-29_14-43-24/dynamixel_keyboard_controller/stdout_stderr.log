@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/dynamixel_keyboard_controller/dynamixel_keyboard_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/dynamixel_keyboard_controller/dynamixel_keyboard_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/dynamixel_keyboard_controller/dynamixel_keyboard_controller.egg-info/entry_points.txt
+writing requirements to ../../build/dynamixel_keyboard_controller/dynamixel_keyboard_controller.egg-info/requires.txt
+writing top-level names to ../../build/dynamixel_keyboard_controller/dynamixel_keyboard_controller.egg-info/top_level.txt
+reading manifest file '../../build/dynamixel_keyboard_controller/dynamixel_keyboard_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/dynamixel_keyboard_controller/dynamixel_keyboard_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+copying dynamixel_keyboard_controller/controller.py -> /home/sli/slither_ws/build/dynamixel_keyboard_controller/build/lib/dynamixel_keyboard_controller
+running install
+running install_lib
+copying /home/sli/slither_ws/build/dynamixel_keyboard_controller/build/lib/dynamixel_keyboard_controller/controller.py -> /home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages/dynamixel_keyboard_controller
+byte-compiling /home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages/dynamixel_keyboard_controller/controller.py to controller.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages/dynamixel_keyboard_controller-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/dynamixel_keyboard_controller/dynamixel_keyboard_controller.egg-info to /home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages/dynamixel_keyboard_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing dynamixel_keyboard_controller script to /home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/dynamixel_keyboard_controller
+writing list of installed files to '/home/sli/slither_ws/build/dynamixel_keyboard_controller/install.log'

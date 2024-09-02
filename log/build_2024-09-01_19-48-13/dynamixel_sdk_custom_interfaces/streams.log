@@ -1,0 +1,24 @@
+[0.149s] Invoking command in '/home/sli/slither_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sli/slither_ws/build/dynamixel_sdk_custom_interfaces -- -j4 -l4
+[0.667s] [  2%] Built target dynamixel_sdk_custom_interfaces__cpp
+[0.708s] [ 12%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
+[0.765s] [ 12%] Built target ament_cmake_python_copy_dynamixel_sdk_custom_interfaces
+[0.881s] [ 23%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp
+[0.893s] [ 33%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp
+[0.916s] [ 43%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.927s] [ 53%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c
+[1.044s] [ 64%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c
+[1.075s] [ 74%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c
+[1.194s] [ 74%] Built target dynamixel_sdk_custom_interfaces
+[1.325s] [ 76%] Built target dynamixel_sdk_custom_interfaces__py
+[1.479s] [ 84%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_py
+[1.637s] [ 89%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.670s] [ 94%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.681s] [100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext
+[2.619s] running egg_info
+[2.622s] writing dynamixel_sdk_custom_interfaces.egg-info/PKG-INFO
+[2.624s] writing dependency_links to dynamixel_sdk_custom_interfaces.egg-info/dependency_links.txt
+[2.627s] writing top-level names to dynamixel_sdk_custom_interfaces.egg-info/top_level.txt
+[2.643s] reading manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[2.647s] writing manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[2.809s] [100%] Built target ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg
+[2.930s] Invoked command in '/home/sli/slither_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sli/slither_ws/build/dynamixel_sdk_custom_interfaces -- -j4 -l4

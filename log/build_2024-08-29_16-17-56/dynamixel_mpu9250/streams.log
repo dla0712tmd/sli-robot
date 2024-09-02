@@ -1,0 +1,27 @@
+[4.080s] Invoking command in '/home/sli/slither_ws/src/dynamixel_mpu9250': CMAKE_PREFIX_PATH=/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces LD_LIBRARY_PATH=/home/sli/slither_ws/install/dynamixel_sdk/lib:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/sli/slither_ws/build/dynamixel_mpu9250/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dynamixel_mpu9250 build --build-base /home/sli/slither_ws/build/dynamixel_mpu9250/build install --record /home/sli/slither_ws/build/dynamixel_mpu9250/install.log --single-version-externally-managed install_data
+[5.291s] running egg_info
+[5.294s] writing ../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info/PKG-INFO
+[5.295s] writing dependency_links to ../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info/dependency_links.txt
+[5.296s] writing entry points to ../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info/entry_points.txt
+[5.297s] writing requirements to ../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info/requires.txt
+[5.298s] writing top-level names to ../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info/top_level.txt
+[5.307s] reading manifest file '../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info/SOURCES.txt'
+[5.311s] writing manifest file '../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info/SOURCES.txt'
+[5.311s] running build
+[5.312s] running build_py
+[5.312s] copying dynamixel_mpu9250/dynamixel_controller (copy).py -> /home/sli/slither_ws/build/dynamixel_mpu9250/build/lib/dynamixel_mpu9250
+[5.313s] copying dynamixel_mpu9250/dynamixel_controller.py -> /home/sli/slither_ws/build/dynamixel_mpu9250/build/lib/dynamixel_mpu9250
+[5.315s] running install
+[5.316s] running install_lib
+[5.320s] copying /home/sli/slither_ws/build/dynamixel_mpu9250/build/lib/dynamixel_mpu9250/dynamixel_controller (copy).py -> /home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages/dynamixel_mpu9250
+[5.321s] copying /home/sli/slither_ws/build/dynamixel_mpu9250/build/lib/dynamixel_mpu9250/dynamixel_controller.py -> /home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages/dynamixel_mpu9250
+[5.324s] byte-compiling /home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages/dynamixel_mpu9250/dynamixel_controller (copy).py to dynamixel_controller (copy).cpython-310.pyc
+[5.329s] byte-compiling /home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages/dynamixel_mpu9250/dynamixel_controller.py to dynamixel_controller.cpython-310.pyc
+[5.334s] running install_data
+[5.335s] running install_egg_info
+[5.342s] removing '/home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages/dynamixel_mpu9250-0.0.0-py3.10.egg-info' (and everything under it)
+[5.344s] Copying ../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info to /home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages/dynamixel_mpu9250-0.0.0-py3.10.egg-info
+[5.350s] running install_scripts
+[5.435s] Installing dynamixel_controller script to /home/sli/slither_ws/install/dynamixel_mpu9250/lib/dynamixel_mpu9250
+[5.437s] writing list of installed files to '/home/sli/slither_ws/build/dynamixel_mpu9250/install.log'
+[5.563s] Invoked command in '/home/sli/slither_ws/src/dynamixel_mpu9250' returned '0': CMAKE_PREFIX_PATH=/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces LD_LIBRARY_PATH=/home/sli/slither_ws/install/dynamixel_sdk/lib:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/sli/slither_ws/build/dynamixel_mpu9250/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dynamixel_mpu9250 build --build-base /home/sli/slither_ws/build/dynamixel_mpu9250/build install --record /home/sli/slither_ws/build/dynamixel_mpu9250/install.log --single-version-externally-managed install_data

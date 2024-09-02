@@ -1,0 +1,24 @@
+[6.766s] Invoking command in '/home/sli/slither_ws/src/dynamixel_keyboard_controller': PYTHONPATH=/home/sli/slither_ws/build/dynamixel_keyboard_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dynamixel_keyboard_controller build --build-base /home/sli/slither_ws/build/dynamixel_keyboard_controller/build install --record /home/sli/slither_ws/build/dynamixel_keyboard_controller/install.log --single-version-externally-managed install_data
+[9.113s] running egg_info
+[9.116s] writing ../../build/dynamixel_keyboard_controller/dynamixel_keyboard_controller.egg-info/PKG-INFO
+[9.118s] writing dependency_links to ../../build/dynamixel_keyboard_controller/dynamixel_keyboard_controller.egg-info/dependency_links.txt
+[9.119s] writing entry points to ../../build/dynamixel_keyboard_controller/dynamixel_keyboard_controller.egg-info/entry_points.txt
+[9.122s] writing requirements to ../../build/dynamixel_keyboard_controller/dynamixel_keyboard_controller.egg-info/requires.txt
+[9.123s] writing top-level names to ../../build/dynamixel_keyboard_controller/dynamixel_keyboard_controller.egg-info/top_level.txt
+[9.131s] reading manifest file '../../build/dynamixel_keyboard_controller/dynamixel_keyboard_controller.egg-info/SOURCES.txt'
+[9.136s] writing manifest file '../../build/dynamixel_keyboard_controller/dynamixel_keyboard_controller.egg-info/SOURCES.txt'
+[9.137s] running build
+[9.137s] running build_py
+[9.140s] copying dynamixel_keyboard_controller/controller.py -> /home/sli/slither_ws/build/dynamixel_keyboard_controller/build/lib/dynamixel_keyboard_controller
+[9.143s] running install
+[9.145s] running install_lib
+[9.151s] copying /home/sli/slither_ws/build/dynamixel_keyboard_controller/build/lib/dynamixel_keyboard_controller/controller.py -> /home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages/dynamixel_keyboard_controller
+[9.156s] byte-compiling /home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages/dynamixel_keyboard_controller/controller.py to controller.cpython-310.pyc
+[9.163s] running install_data
+[9.166s] running install_egg_info
+[9.173s] removing '/home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages/dynamixel_keyboard_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[9.175s] Copying ../../build/dynamixel_keyboard_controller/dynamixel_keyboard_controller.egg-info to /home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages/dynamixel_keyboard_controller-0.0.0-py3.10.egg-info
+[9.189s] running install_scripts
+[9.295s] Installing dynamixel_keyboard_controller script to /home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/dynamixel_keyboard_controller
+[9.303s] writing list of installed files to '/home/sli/slither_ws/build/dynamixel_keyboard_controller/install.log'
+[9.478s] Invoked command in '/home/sli/slither_ws/src/dynamixel_keyboard_controller' returned '0': PYTHONPATH=/home/sli/slither_ws/build/dynamixel_keyboard_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dynamixel_keyboard_controller build --build-base /home/sli/slither_ws/build/dynamixel_keyboard_controller/build install --record /home/sli/slither_ws/build/dynamixel_keyboard_controller/install.log --single-version-externally-managed install_data

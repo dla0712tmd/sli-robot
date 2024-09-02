@@ -1,0 +1,24 @@
+[4.787s] Invoking command in '/home/sli/slither_ws/src/dynamixel_mpu9250': CMAKE_PREFIX_PATH=/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces LD_LIBRARY_PATH=/home/sli/slither_ws/install/dynamixel_sdk/lib:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/sli/slither_ws/build/dynamixel_mpu9250/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dynamixel_mpu9250 build --build-base /home/sli/slither_ws/build/dynamixel_mpu9250/build install --record /home/sli/slither_ws/build/dynamixel_mpu9250/install.log --single-version-externally-managed install_data
+[6.570s] running egg_info
+[6.573s] writing ../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info/PKG-INFO
+[6.575s] writing dependency_links to ../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info/dependency_links.txt
+[6.576s] writing entry points to ../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info/entry_points.txt
+[6.578s] writing requirements to ../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info/requires.txt
+[6.579s] writing top-level names to ../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info/top_level.txt
+[6.591s] reading manifest file '../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info/SOURCES.txt'
+[6.596s] writing manifest file '../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info/SOURCES.txt'
+[6.597s] running build
+[6.598s] running build_py
+[6.599s] copying dynamixel_mpu9250/dynamixel_controller.py -> /home/sli/slither_ws/build/dynamixel_mpu9250/build/lib/dynamixel_mpu9250
+[6.601s] running install
+[6.602s] running install_lib
+[6.607s] copying /home/sli/slither_ws/build/dynamixel_mpu9250/build/lib/dynamixel_mpu9250/dynamixel_controller.py -> /home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages/dynamixel_mpu9250
+[6.611s] byte-compiling /home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages/dynamixel_mpu9250/dynamixel_controller.py to dynamixel_controller.cpython-310.pyc
+[6.618s] running install_data
+[6.619s] running install_egg_info
+[6.633s] removing '/home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages/dynamixel_mpu9250-0.0.0-py3.10.egg-info' (and everything under it)
+[6.635s] Copying ../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info to /home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages/dynamixel_mpu9250-0.0.0-py3.10.egg-info
+[6.642s] running install_scripts
+[6.748s] Installing dynamixel_controller script to /home/sli/slither_ws/install/dynamixel_mpu9250/lib/dynamixel_mpu9250
+[6.750s] writing list of installed files to '/home/sli/slither_ws/build/dynamixel_mpu9250/install.log'
+[7.000s] Invoked command in '/home/sli/slither_ws/src/dynamixel_mpu9250' returned '0': CMAKE_PREFIX_PATH=/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces LD_LIBRARY_PATH=/home/sli/slither_ws/install/dynamixel_sdk/lib:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/sli/slither_ws/build/dynamixel_mpu9250/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dynamixel_mpu9250 build --build-base /home/sli/slither_ws/build/dynamixel_mpu9250/build install --record /home/sli/slither_ws/build/dynamixel_mpu9250/install.log --single-version-externally-managed install_data

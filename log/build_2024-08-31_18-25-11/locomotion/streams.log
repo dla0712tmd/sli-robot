@@ -1,0 +1,21 @@
+[4.545s] Invoking command in '/home/sli/slither_ws/src/locomotion': CMAKE_PREFIX_PATH=/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_sdk_examples PYTHONPATH=/home/sli/slither_ws/build/locomotion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sli/slither_ws/install/locomotion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/locomotion build --build-base /home/sli/slither_ws/build/locomotion/build install --record /home/sli/slither_ws/build/locomotion/install.log --single-version-externally-managed install_data
+[6.010s] running egg_info
+[6.013s] writing ../../build/locomotion/locomotion.egg-info/PKG-INFO
+[6.021s] writing dependency_links to ../../build/locomotion/locomotion.egg-info/dependency_links.txt
+[6.022s] writing entry points to ../../build/locomotion/locomotion.egg-info/entry_points.txt
+[6.033s] writing requirements to ../../build/locomotion/locomotion.egg-info/requires.txt
+[6.035s] writing top-level names to ../../build/locomotion/locomotion.egg-info/top_level.txt
+[6.044s] reading manifest file '../../build/locomotion/locomotion.egg-info/SOURCES.txt'
+[6.050s] writing manifest file '../../build/locomotion/locomotion.egg-info/SOURCES.txt'
+[6.051s] running build
+[6.051s] running build_py
+[6.060s] running install
+[6.067s] running install_lib
+[6.072s] running install_data
+[6.073s] running install_egg_info
+[6.083s] removing '/home/sli/slither_ws/install/locomotion/lib/python3.10/site-packages/locomotion-0.0.0-py3.10.egg-info' (and everything under it)
+[6.085s] Copying ../../build/locomotion/locomotion.egg-info to /home/sli/slither_ws/install/locomotion/lib/python3.10/site-packages/locomotion-0.0.0-py3.10.egg-info
+[6.100s] running install_scripts
+[6.247s] Installing locomotion_node script to /home/sli/slither_ws/install/locomotion/lib/locomotion
+[6.257s] writing list of installed files to '/home/sli/slither_ws/build/locomotion/install.log'
+[6.428s] Invoked command in '/home/sli/slither_ws/src/locomotion' returned '0': CMAKE_PREFIX_PATH=/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_sdk_examples PYTHONPATH=/home/sli/slither_ws/build/locomotion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sli/slither_ws/install/locomotion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/locomotion build --build-base /home/sli/slither_ws/build/locomotion/build install --record /home/sli/slither_ws/build/locomotion/install.log --single-version-externally-managed install_data

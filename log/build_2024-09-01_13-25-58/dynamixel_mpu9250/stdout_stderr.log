@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info/PKG-INFO
+writing dependency_links to ../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info/dependency_links.txt
+writing entry points to ../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info/entry_points.txt
+writing requirements to ../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info/requires.txt
+writing top-level names to ../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info/top_level.txt
+reading manifest file '../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info/SOURCES.txt'
+writing manifest file '../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info/SOURCES.txt'
+running build
+running build_py
+copying dynamixel_mpu9250/dynamixel_controller.py -> /home/sli/slither_ws/build/dynamixel_mpu9250/build/lib/dynamixel_mpu9250
+running install
+running install_lib
+copying /home/sli/slither_ws/build/dynamixel_mpu9250/build/lib/dynamixel_mpu9250/dynamixel_controller.py -> /home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages/dynamixel_mpu9250
+byte-compiling /home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages/dynamixel_mpu9250/dynamixel_controller.py to dynamixel_controller.cpython-310.pyc
+Sorry: IndentationError: expected an indented block after 'else' statement on line 117 (dynamixel_controller.py, line 122)
+running install_data
+running install_egg_info
+removing '/home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages/dynamixel_mpu9250-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/dynamixel_mpu9250/dynamixel_mpu9250.egg-info to /home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages/dynamixel_mpu9250-0.0.0-py3.10.egg-info
+running install_scripts
+Installing dynamixel_controller script to /home/sli/slither_ws/install/dynamixel_mpu9250/lib/dynamixel_mpu9250
+writing list of installed files to '/home/sli/slither_ws/build/dynamixel_mpu9250/install.log'

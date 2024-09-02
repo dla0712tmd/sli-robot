@@ -1,0 +1,37 @@
+[3.868s] Invoking command in '/home/sli/slither_ws/src/locomotion': AMENT_PREFIX_PATH=/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk LD_LIBRARY_PATH=/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/sli/slither_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sli/slither_ws/build/locomotion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sli/slither_ws/install/locomotion/lib/python3.10/site-packages:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/locomotion build --build-base /home/sli/slither_ws/build/locomotion/build install --record /home/sli/slither_ws/build/locomotion/install.log --single-version-externally-managed install_data
+[5.033s] running egg_info
+[5.035s] creating ../../build/locomotion/locomotion.egg-info
+[5.036s] writing ../../build/locomotion/locomotion.egg-info/PKG-INFO
+[5.037s] writing dependency_links to ../../build/locomotion/locomotion.egg-info/dependency_links.txt
+[5.038s] writing entry points to ../../build/locomotion/locomotion.egg-info/entry_points.txt
+[5.038s] writing requirements to ../../build/locomotion/locomotion.egg-info/requires.txt
+[5.039s] writing top-level names to ../../build/locomotion/locomotion.egg-info/top_level.txt
+[5.040s] writing manifest file '../../build/locomotion/locomotion.egg-info/SOURCES.txt'
+[5.047s] reading manifest file '../../build/locomotion/locomotion.egg-info/SOURCES.txt'
+[5.050s] writing manifest file '../../build/locomotion/locomotion.egg-info/SOURCES.txt'
+[5.051s] running build
+[5.051s] running build_py
+[5.052s] creating /home/sli/slither_ws/build/locomotion/build
+[5.052s] creating /home/sli/slither_ws/build/locomotion/build/lib
+[5.052s] creating /home/sli/slither_ws/build/locomotion/build/lib/locomotion
+[5.053s] copying locomotion/locomotion.py -> /home/sli/slither_ws/build/locomotion/build/lib/locomotion
+[5.053s] copying locomotion/__init__.py -> /home/sli/slither_ws/build/locomotion/build/lib/locomotion
+[5.054s] running install
+[5.056s] running install_lib
+[5.059s] creating /home/sli/slither_ws/install/locomotion/lib/python3.10/site-packages/locomotion
+[5.059s] copying /home/sli/slither_ws/build/locomotion/build/lib/locomotion/locomotion.py -> /home/sli/slither_ws/install/locomotion/lib/python3.10/site-packages/locomotion
+[5.060s] copying /home/sli/slither_ws/build/locomotion/build/lib/locomotion/__init__.py -> /home/sli/slither_ws/install/locomotion/lib/python3.10/site-packages/locomotion
+[5.063s] byte-compiling /home/sli/slither_ws/install/locomotion/lib/python3.10/site-packages/locomotion/locomotion.py to locomotion.cpython-310.pyc
+[5.069s] byte-compiling /home/sli/slither_ws/install/locomotion/lib/python3.10/site-packages/locomotion/__init__.py to __init__.cpython-310.pyc
+[5.070s] running install_data
+[5.070s] creating /home/sli/slither_ws/install/locomotion/share/ament_index
+[5.071s] creating /home/sli/slither_ws/install/locomotion/share/ament_index/resource_index
+[5.071s] creating /home/sli/slither_ws/install/locomotion/share/ament_index/resource_index/packages
+[5.072s] copying resource/locomotion -> /home/sli/slither_ws/install/locomotion/share/ament_index/resource_index/packages
+[5.072s] copying package.xml -> /home/sli/slither_ws/install/locomotion/share/locomotion
+[5.072s] running install_egg_info
+[5.079s] Copying ../../build/locomotion/locomotion.egg-info to /home/sli/slither_ws/install/locomotion/lib/python3.10/site-packages/locomotion-0.0.0-py3.10.egg-info
+[5.084s] running install_scripts
+[5.168s] Installing locomotion_node script to /home/sli/slither_ws/install/locomotion/lib/locomotion
+[5.169s] writing list of installed files to '/home/sli/slither_ws/build/locomotion/install.log'
+[5.299s] Invoked command in '/home/sli/slither_ws/src/locomotion' returned '0': AMENT_PREFIX_PATH=/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk LD_LIBRARY_PATH=/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/sli/slither_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sli/slither_ws/build/locomotion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sli/slither_ws/install/locomotion/lib/python3.10/site-packages:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/locomotion build --build-base /home/sli/slither_ws/build/locomotion/build install --record /home/sli/slither_ws/build/locomotion/install.log --single-version-externally-managed install_data

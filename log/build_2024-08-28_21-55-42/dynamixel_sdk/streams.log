@@ -1,0 +1,70 @@
+[0.099s] Invoking command in '/home/sli/slither_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/home/sli/ros2_ws/install/mpu6050_reader:/opt/ros/humble /usr/bin/cmake /home/sli/slither_ws/src/DynamixelSDK/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/sli/slither_ws/install/dynamixel_sdk
+[0.467s] -- The C compiler identification is GNU 11.4.0
+[0.790s] -- The CXX compiler identification is GNU 11.4.0
+[0.822s] -- Detecting C compiler ABI info
+[1.211s] -- Detecting C compiler ABI info - done
+[1.246s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.250s] -- Detecting C compile features
+[1.252s] -- Detecting C compile features - done
+[1.271s] -- Detecting CXX compiler ABI info
+[1.708s] -- Detecting CXX compiler ABI info - done
+[1.737s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.739s] -- Detecting CXX compile features
+[1.741s] -- Detecting CXX compile features - done
+[1.766s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.859s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.036s] -- Configuring done
+[4.069s] -- Generating done
+[4.075s] -- Build files have been written to: /home/sli/slither_ws/build/dynamixel_sdk
+[4.096s] Invoked command in '/home/sli/slither_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/home/sli/ros2_ws/install/mpu6050_reader:/opt/ros/humble /usr/bin/cmake /home/sli/slither_ws/src/DynamixelSDK/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/sli/slither_ws/install/dynamixel_sdk
+[4.111s] Invoking command in '/home/sli/slither_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/home/sli/ros2_ws/install/mpu6050_reader:/opt/ros/humble /usr/bin/cmake --build /home/sli/slither_ws/build/dynamixel_sdk -- -j4 -l4
+[4.386s] [ 10%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o[0m
+[4.388s] [ 20%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o[0m
+[4.426s] [ 30%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o[0m
+[4.437s] [ 40%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o[0m
+[5.206s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o[0m
+[6.069s] [ 60%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o[0m
+[6.210s] [ 70%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o[0m
+[7.686s] [ 80%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o[0m
+[8.049s] [ 90%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o[0m
+[10.243s] [100%] [32m[1mLinking CXX shared library libdynamixel_sdk.so[0m
+[10.642s] [100%] Built target dynamixel_sdk
+[10.694s] Invoked command in '/home/sli/slither_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/home/sli/ros2_ws/install/mpu6050_reader:/opt/ros/humble /usr/bin/cmake --build /home/sli/slither_ws/build/dynamixel_sdk -- -j4 -l4
+[11.025s] Invoking command in '/home/sli/slither_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/home/sli/ros2_ws/install/mpu6050_reader:/opt/ros/humble /usr/bin/cmake --install /home/sli/slither_ws/build/dynamixel_sdk
+[11.053s] -- Install configuration: ""
+[11.054s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/include/
+[11.054s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk
+[11.055s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[11.064s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[11.067s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[11.069s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[11.070s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[11.071s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[11.073s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[11.074s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[11.076s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[11.077s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[11.078s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[11.080s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[11.081s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[11.083s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[11.087s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[11.090s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[11.093s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[11.094s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[11.097s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[11.099s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[11.100s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[11.101s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[11.103s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[11.104s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[11.105s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[11.107s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[11.108s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[11.110s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[11.111s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.112s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[11.114s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[11.115s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[11.116s] -- Installing: /home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[11.124s] Invoked command in '/home/sli/slither_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/home/sli/ros2_ws/install/mpu6050_reader:/opt/ros/humble /usr/bin/cmake --install /home/sli/slither_ws/build/dynamixel_sdk

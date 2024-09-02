@@ -1,0 +1,3 @@
+[console_scripts]
+dynamixel_controller = dynamixel_mpu9250.dynamixel_controller:main
+

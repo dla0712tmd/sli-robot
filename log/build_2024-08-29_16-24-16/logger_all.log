@@ -1,0 +1,399 @@
+[0.480s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.481s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff877a28f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff878daf20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff878daf20>>, mixin_verb=('build',))
+[1.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.309s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sli/slither_ws'
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.359s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.361s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.362s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.362s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.363s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.364s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.366s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['ignore', 'ignore_ament_install']
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ignore'
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ignore_ament_install'
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['colcon_pkg']
+[1.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'colcon_pkg'
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['colcon_meta']
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'colcon_meta'
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['ros']
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ros'
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['cmake', 'python']
+[1.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'cmake'
+[1.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'python'
+[1.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['python_setup_py']
+[1.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'python_setup_py'
+[1.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['ignore', 'ignore_ament_install']
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ignore'
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ignore_ament_install'
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_pkg']
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'colcon_pkg'
+[1.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_meta']
+[1.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'colcon_meta'
+[1.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['ros']
+[1.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ros'
+[1.379s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk' with type 'ros.ament_cmake' and name 'dynamixel_sdk'
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore'
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore_ament_install'
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_pkg']
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_pkg'
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_meta']
+[1.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_meta'
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ros']
+[1.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ros'
+[1.385s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk_custom_interfaces' with type 'ros.ament_cmake' and name 'dynamixel_sdk_custom_interfaces'
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ignore', 'ignore_ament_install']
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore'
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore_ament_install'
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_pkg']
+[1.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_pkg'
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_meta']
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_meta'
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ros']
+[1.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ros'
+[1.390s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk_examples' with type 'ros.ament_cmake' and name 'dynamixel_sdk_examples'
+[1.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_keyboard_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_keyboard_controller) by extension 'ignore'
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_keyboard_controller) by extension 'ignore_ament_install'
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_keyboard_controller) by extensions ['colcon_pkg']
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_keyboard_controller) by extension 'colcon_pkg'
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_keyboard_controller) by extensions ['colcon_meta']
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_keyboard_controller) by extension 'colcon_meta'
+[1.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_keyboard_controller) by extensions ['ros']
+[1.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_keyboard_controller) by extension 'ros'
+[1.395s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamixel_keyboard_controller' with type 'ros.ament_python' and name 'dynamixel_keyboard_controller'
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_mpu9250) by extensions ['ignore', 'ignore_ament_install']
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_mpu9250) by extension 'ignore'
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_mpu9250) by extension 'ignore_ament_install'
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_mpu9250) by extensions ['colcon_pkg']
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_mpu9250) by extension 'colcon_pkg'
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_mpu9250) by extensions ['colcon_meta']
+[1.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_mpu9250) by extension 'colcon_meta'
+[1.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_mpu9250) by extensions ['ros']
+[1.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_mpu9250) by extension 'ros'
+[1.400s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamixel_mpu9250' with type 'ros.ament_python' and name 'dynamixel_mpu9250'
+[1.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.484s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.484s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.494s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/sli/slither_ws/install
+[1.502s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[1.547s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.709s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_keyboard_controller' build argument 'cmake_args' from command line to 'None'
+[1.709s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_keyboard_controller' build argument 'cmake_target' from command line to 'None'
+[1.709s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_keyboard_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.710s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_keyboard_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.710s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_keyboard_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.710s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_keyboard_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.710s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_keyboard_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.710s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_keyboard_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.710s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_keyboard_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.710s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_keyboard_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sli/slither_ws/build/dynamixel_keyboard_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sli/slither_ws/install/dynamixel_keyboard_controller', 'merge_install': False, 'path': '/home/sli/slither_ws/src/dynamixel_keyboard_controller', 'symlink_install': False, 'test_result_base': None}
+[1.712s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_args' from command line to 'None'
+[1.712s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_target' from command line to 'None'
+[1.712s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.712s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[1.712s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[1.712s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[1.712s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[1.712s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[1.712s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.713s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sli/slither_ws/build/dynamixel_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sli/slither_ws/install/dynamixel_sdk', 'merge_install': False, 'path': '/home/sli/slither_ws/src/DynamixelSDK/dynamixel_sdk', 'symlink_install': False, 'test_result_base': None}
+[1.714s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.714s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.714s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.714s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.715s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.715s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.715s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.715s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.715s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.715s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk_custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sli/slither_ws/build/dynamixel_sdk_custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces', 'merge_install': False, 'path': '/home/sli/slither_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.716s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_mpu9250' build argument 'cmake_args' from command line to 'None'
+[1.717s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_mpu9250' build argument 'cmake_target' from command line to 'None'
+[1.717s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_mpu9250' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.717s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_mpu9250' build argument 'cmake_clean_cache' from command line to 'False'
+[1.717s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_mpu9250' build argument 'cmake_clean_first' from command line to 'False'
+[1.717s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_mpu9250' build argument 'cmake_force_configure' from command line to 'False'
+[1.717s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_mpu9250' build argument 'ament_cmake_args' from command line to 'None'
+[1.717s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_mpu9250' build argument 'catkin_cmake_args' from command line to 'None'
+[1.717s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_mpu9250' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.717s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_mpu9250' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sli/slither_ws/build/dynamixel_mpu9250', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sli/slither_ws/install/dynamixel_mpu9250', 'merge_install': False, 'path': '/home/sli/slither_ws/src/dynamixel_mpu9250', 'symlink_install': False, 'test_result_base': None}
+[1.719s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_args' from command line to 'None'
+[1.719s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_target' from command line to 'None'
+[1.719s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.719s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[1.719s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_clean_first' from command line to 'False'
+[1.719s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_force_configure' from command line to 'False'
+[1.719s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'ament_cmake_args' from command line to 'None'
+[1.720s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[1.720s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.720s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sli/slither_ws/build/dynamixel_sdk_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sli/slither_ws/install/dynamixel_sdk_examples', 'merge_install': False, 'path': '/home/sli/slither_ws/src/DynamixelSDK/dynamixel_sdk_examples', 'symlink_install': False, 'test_result_base': None}
+[1.720s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.724s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.725s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sli/slither_ws/src/DynamixelSDK/dynamixel_sdk' with build type 'ament_cmake'
+[1.725s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sli/slither_ws/src/DynamixelSDK/dynamixel_sdk'
+[1.734s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.735s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.736s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.757s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sli/slither_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces' with build type 'ament_cmake'
+[1.758s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sli/slither_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces'
+[1.759s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.760s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.780s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sli/slither_ws/src/dynamixel_keyboard_controller' with build type 'ament_python'
+[1.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_keyboard_controller', 'ament_prefix_path')
+[1.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sli/slither_ws/install/dynamixel_keyboard_controller/share/dynamixel_keyboard_controller/hook/ament_prefix_path.ps1'
+[1.786s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sli/slither_ws/install/dynamixel_keyboard_controller/share/dynamixel_keyboard_controller/hook/ament_prefix_path.dsv'
+[1.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sli/slither_ws/install/dynamixel_keyboard_controller/share/dynamixel_keyboard_controller/hook/ament_prefix_path.sh'
+[1.793s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.794s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.832s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sli/slither_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/opt/ros/humble /usr/bin/cmake --build /home/sli/slither_ws/build/dynamixel_sdk -- -j4 -l4
+[1.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sli/slither_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/opt/ros/humble /usr/bin/cmake --build /home/sli/slither_ws/build/dynamixel_sdk_custom_interfaces -- -j4 -l4
+[3.710s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sli/slither_ws/src/dynamixel_keyboard_controller'
+[3.711s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.712s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sli/slither_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/opt/ros/humble /usr/bin/cmake --build /home/sli/slither_ws/build/dynamixel_sdk -- -j4 -l4
+[4.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sli/slither_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/opt/ros/humble /usr/bin/cmake --install /home/sli/slither_ws/build/dynamixel_sdk
+[4.251s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk)
+[4.273s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sli/slither_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/opt/ros/humble /usr/bin/cmake --install /home/sli/slither_ws/build/dynamixel_sdk
+[4.277s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk' for CMake module files
+[4.280s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk' for CMake config files
+[4.282s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'cmake_prefix_path')
+[4.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.ps1'
+[4.287s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.dsv'
+[4.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.sh'
+[4.294s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk/lib'
+[4.295s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'ld_library_path_lib')
+[4.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.ps1'
+[4.298s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.dsv'
+[4.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.sh'
+[4.302s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk/bin'
+[4.302s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk/lib/pkgconfig/dynamixel_sdk.pc'
+[4.303s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk/lib/python3.10/site-packages'
+[4.304s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk/bin'
+[4.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.ps1'
+[4.309s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv'
+[4.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.sh'
+[4.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.bash'
+[4.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.zsh'
+[4.324s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sli/slither_ws/install/dynamixel_sdk/share/colcon-core/packages/dynamixel_sdk)
+[4.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sli/slither_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/opt/ros/humble /usr/bin/cmake --build /home/sli/slither_ws/build/dynamixel_sdk_custom_interfaces -- -j4 -l4
+[4.622s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk)
+[4.623s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk' for CMake module files
+[4.626s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk' for CMake config files
+[4.628s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'cmake_prefix_path')
+[4.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.ps1'
+[4.631s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.dsv'
+[4.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.sh'
+[4.636s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk/lib'
+[4.636s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'ld_library_path_lib')
+[4.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.ps1'
+[4.640s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.dsv'
+[4.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.sh'
+[4.645s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk/bin'
+[4.645s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk/lib/pkgconfig/dynamixel_sdk.pc'
+[4.647s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk/lib/python3.10/site-packages'
+[4.648s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk/bin'
+[4.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.ps1'
+[4.653s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv'
+[4.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.sh'
+[4.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.bash'
+[4.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.zsh'
+[4.665s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sli/slither_ws/install/dynamixel_sdk/share/colcon-core/packages/dynamixel_sdk)
+[4.667s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sli/slither_ws/src/dynamixel_mpu9250' with build type 'ament_python'
+[4.667s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_mpu9250', 'ament_prefix_path')
+[4.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sli/slither_ws/install/dynamixel_mpu9250/share/dynamixel_mpu9250/hook/ament_prefix_path.ps1'
+[4.672s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sli/slither_ws/install/dynamixel_mpu9250/share/dynamixel_mpu9250/hook/ament_prefix_path.dsv'
+[4.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sli/slither_ws/install/dynamixel_mpu9250/share/dynamixel_mpu9250/hook/ament_prefix_path.sh'
+[4.678s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.678s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.239s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sli/slither_ws/src/dynamixel_mpu9250'
+[6.240s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.240s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.272s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sli/slither_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/opt/ros/humble /usr/bin/cmake --install /home/sli/slither_ws/build/dynamixel_sdk_custom_interfaces
+[6.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sli/slither_ws/src/dynamixel_keyboard_controller': PYTHONPATH=/home/sli/slither_ws/build/dynamixel_keyboard_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dynamixel_keyboard_controller build --build-base /home/sli/slither_ws/build/dynamixel_keyboard_controller/build install --record /home/sli/slither_ws/build/dynamixel_keyboard_controller/install.log --single-version-externally-managed install_data
+[6.701s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_custom_interfaces)
+[6.702s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces' for CMake module files
+[6.707s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces' for CMake config files
+[6.711s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'cmake_prefix_path')
+[6.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.ps1'
+[6.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sli/slither_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/opt/ros/humble /usr/bin/cmake --install /home/sli/slither_ws/build/dynamixel_sdk_custom_interfaces
+[6.718s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.dsv'
+[6.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.sh'
+[6.724s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib'
+[6.725s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'ld_library_path_lib')
+[6.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.ps1'
+[6.728s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.dsv'
+[6.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.sh'
+[6.733s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/bin'
+[6.734s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib/pkgconfig/dynamixel_sdk_custom_interfaces.pc'
+[6.735s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.10/site-packages'
+[6.737s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/bin'
+[6.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.ps1'
+[6.742s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv'
+[6.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.sh'
+[6.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.bash'
+[6.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.zsh'
+[6.752s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/colcon-core/packages/dynamixel_sdk_custom_interfaces)
+[7.362s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_custom_interfaces)
+[7.364s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces' for CMake module files
+[7.368s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces' for CMake config files
+[7.372s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'cmake_prefix_path')
+[7.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.ps1'
+[7.375s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.dsv'
+[7.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.sh'
+[7.381s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib'
+[7.381s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'ld_library_path_lib')
+[7.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.ps1'
+[7.386s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.dsv'
+[7.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.sh'
+[7.391s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/bin'
+[7.391s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib/pkgconfig/dynamixel_sdk_custom_interfaces.pc'
+[7.392s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.10/site-packages'
+[7.394s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/bin'
+[7.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.ps1'
+[7.399s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv'
+[7.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.sh'
+[7.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.bash'
+[7.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.zsh'
+[7.409s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/share/colcon-core/packages/dynamixel_sdk_custom_interfaces)
+[7.413s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sli/slither_ws/src/DynamixelSDK/dynamixel_sdk_examples' with build type 'ament_cmake'
+[7.415s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sli/slither_ws/src/DynamixelSDK/dynamixel_sdk_examples'
+[7.416s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.417s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sli/slither_ws/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/opt/ros/humble /usr/bin/cmake --build /home/sli/slither_ws/build/dynamixel_sdk_examples -- -j4 -l4
+[7.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sli/slither_ws/build/dynamixel_sdk_examples' returned '0': CMAKE_PREFIX_PATH=/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/opt/ros/humble /usr/bin/cmake --build /home/sli/slither_ws/build/dynamixel_sdk_examples -- -j4 -l4
+[8.055s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sli/slither_ws/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/opt/ros/humble /usr/bin/cmake --install /home/sli/slither_ws/build/dynamixel_sdk_examples
+[8.150s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_examples)
+[8.152s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk_examples' for CMake module files
+[8.157s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk_examples' for CMake config files
+[8.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_examples', 'cmake_prefix_path')
+[8.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.ps1'
+[8.164s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sli/slither_ws/build/dynamixel_sdk_examples' returned '0': CMAKE_PREFIX_PATH=/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces:/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_mpu9250:/home/sli/slither_ws/install/dynamixel_keyboard_controller:/opt/ros/humble /usr/bin/cmake --install /home/sli/slither_ws/build/dynamixel_sdk_examples
+[8.170s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.dsv'
+[8.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.sh'
+[8.179s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk_examples/lib'
+[8.180s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk_examples/bin'
+[8.181s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk_examples/lib/pkgconfig/dynamixel_sdk_examples.pc'
+[8.183s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk_examples/lib/python3.10/site-packages'
+[8.186s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk_examples/bin'
+[8.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.ps1'
+[8.195s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv'
+[8.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.sh'
+[8.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.bash'
+[8.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.zsh'
+[8.207s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sli/slither_ws/install/dynamixel_sdk_examples/share/colcon-core/packages/dynamixel_sdk_examples)
+[8.228s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_keyboard_controller' for CMake module files
+[8.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sli/slither_ws/src/dynamixel_keyboard_controller' returned '0': PYTHONPATH=/home/sli/slither_ws/build/dynamixel_keyboard_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dynamixel_keyboard_controller build --build-base /home/sli/slither_ws/build/dynamixel_keyboard_controller/build install --record /home/sli/slither_ws/build/dynamixel_keyboard_controller/install.log --single-version-externally-managed install_data
+[8.235s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_keyboard_controller' for CMake config files
+[8.240s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_keyboard_controller/lib'
+[8.241s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_keyboard_controller/bin'
+[8.241s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/pkgconfig/dynamixel_keyboard_controller.pc'
+[8.242s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_keyboard_controller/lib/python3.10/site-packages'
+[8.243s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_keyboard_controller', 'pythonpath')
+[8.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sli/slither_ws/install/dynamixel_keyboard_controller/share/dynamixel_keyboard_controller/hook/pythonpath.ps1'
+[8.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sli/slither_ws/install/dynamixel_keyboard_controller/share/dynamixel_keyboard_controller/hook/pythonpath.dsv'
+[8.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sli/slither_ws/install/dynamixel_keyboard_controller/share/dynamixel_keyboard_controller/hook/pythonpath.sh'
+[8.254s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_keyboard_controller/bin'
+[8.255s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_keyboard_controller)
+[8.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_keyboard_controller/share/dynamixel_keyboard_controller/package.ps1'
+[8.259s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sli/slither_ws/install/dynamixel_keyboard_controller/share/dynamixel_keyboard_controller/package.dsv'
+[8.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_keyboard_controller/share/dynamixel_keyboard_controller/package.sh'
+[8.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_keyboard_controller/share/dynamixel_keyboard_controller/package.bash'
+[8.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_keyboard_controller/share/dynamixel_keyboard_controller/package.zsh'
+[8.270s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sli/slither_ws/install/dynamixel_keyboard_controller/share/colcon-core/packages/dynamixel_keyboard_controller)
+[8.393s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_examples)
+[8.395s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk_examples' for CMake module files
+[8.399s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk_examples' for CMake config files
+[8.403s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_examples', 'cmake_prefix_path')
+[8.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.ps1'
+[8.408s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.dsv'
+[8.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.sh'
+[8.417s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk_examples/lib'
+[8.419s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk_examples/bin'
+[8.419s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk_examples/lib/pkgconfig/dynamixel_sdk_examples.pc'
+[8.421s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk_examples/lib/python3.10/site-packages'
+[8.423s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_sdk_examples/bin'
+[8.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.ps1'
+[8.429s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv'
+[8.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.sh'
+[8.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.bash'
+[8.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.zsh'
+[8.443s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sli/slither_ws/install/dynamixel_sdk_examples/share/colcon-core/packages/dynamixel_sdk_examples)
+[8.509s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sli/slither_ws/src/dynamixel_mpu9250': CMAKE_PREFIX_PATH=/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces LD_LIBRARY_PATH=/home/sli/slither_ws/install/dynamixel_sdk/lib:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/sli/slither_ws/build/dynamixel_mpu9250/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dynamixel_mpu9250 build --build-base /home/sli/slither_ws/build/dynamixel_mpu9250/build install --record /home/sli/slither_ws/build/dynamixel_mpu9250/install.log --single-version-externally-managed install_data
+[9.948s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_mpu9250' for CMake module files
+[9.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sli/slither_ws/src/dynamixel_mpu9250' returned '0': CMAKE_PREFIX_PATH=/home/sli/slither_ws/install/dynamixel_sdk:/home/sli/slither_ws/install/dynamixel_sdk_examples:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces LD_LIBRARY_PATH=/home/sli/slither_ws/install/dynamixel_sdk/lib:/home/sli/slither_ws/install/dynamixel_sdk_custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/sli/slither_ws/build/dynamixel_mpu9250/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dynamixel_mpu9250 build --build-base /home/sli/slither_ws/build/dynamixel_mpu9250/build install --record /home/sli/slither_ws/build/dynamixel_mpu9250/install.log --single-version-externally-managed install_data
+[9.953s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_mpu9250' for CMake config files
+[9.958s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_mpu9250/lib'
+[9.959s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_mpu9250/bin'
+[9.959s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_mpu9250/lib/pkgconfig/dynamixel_mpu9250.pc'
+[9.960s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_mpu9250/lib/python3.10/site-packages'
+[9.961s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_mpu9250', 'pythonpath')
+[9.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sli/slither_ws/install/dynamixel_mpu9250/share/dynamixel_mpu9250/hook/pythonpath.ps1'
+[9.963s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sli/slither_ws/install/dynamixel_mpu9250/share/dynamixel_mpu9250/hook/pythonpath.dsv'
+[9.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sli/slither_ws/install/dynamixel_mpu9250/share/dynamixel_mpu9250/hook/pythonpath.sh'
+[9.969s] Level 1:colcon.colcon_core.environment:checking '/home/sli/slither_ws/install/dynamixel_mpu9250/bin'
+[9.969s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_mpu9250)
+[9.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_mpu9250/share/dynamixel_mpu9250/package.ps1'
+[9.973s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sli/slither_ws/install/dynamixel_mpu9250/share/dynamixel_mpu9250/package.dsv'
+[9.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_mpu9250/share/dynamixel_mpu9250/package.sh'
+[9.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_mpu9250/share/dynamixel_mpu9250/package.bash'
+[9.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/sli/slither_ws/install/dynamixel_mpu9250/share/dynamixel_mpu9250/package.zsh'
+[9.981s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sli/slither_ws/install/dynamixel_mpu9250/share/colcon-core/packages/dynamixel_mpu9250)
+[9.982s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.984s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.984s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.985s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.009s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.010s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.010s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.068s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.069s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sli/slither_ws/install/local_setup.ps1'
+[10.073s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sli/slither_ws/install/_local_setup_util_ps1.py'
+[10.080s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sli/slither_ws/install/setup.ps1'
+[10.087s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sli/slither_ws/install/local_setup.sh'
+[10.090s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sli/slither_ws/install/_local_setup_util_sh.py'
+[10.092s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sli/slither_ws/install/setup.sh'
+[10.099s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sli/slither_ws/install/local_setup.bash'
+[10.103s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sli/slither_ws/install/setup.bash'
+[10.110s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sli/slither_ws/install/local_setup.zsh'
+[10.113s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sli/slither_ws/install/setup.zsh'

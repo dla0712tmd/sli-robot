@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/locomotion_wire/locomotion_wire.egg-info
+writing ../../build/locomotion_wire/locomotion_wire.egg-info/PKG-INFO
+writing dependency_links to ../../build/locomotion_wire/locomotion_wire.egg-info/dependency_links.txt
+writing entry points to ../../build/locomotion_wire/locomotion_wire.egg-info/entry_points.txt
+writing requirements to ../../build/locomotion_wire/locomotion_wire.egg-info/requires.txt
+writing top-level names to ../../build/locomotion_wire/locomotion_wire.egg-info/top_level.txt
+writing manifest file '../../build/locomotion_wire/locomotion_wire.egg-info/SOURCES.txt'
+reading manifest file '../../build/locomotion_wire/locomotion_wire.egg-info/SOURCES.txt'
+writing manifest file '../../build/locomotion_wire/locomotion_wire.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sli/slither_ws/build/locomotion_wire/build
+creating /home/sli/slither_ws/build/locomotion_wire/build/lib
+creating /home/sli/slither_ws/build/locomotion_wire/build/lib/locomotion_wire
+copying locomotion_wire/wire.py -> /home/sli/slither_ws/build/locomotion_wire/build/lib/locomotion_wire
+copying locomotion_wire/locomotion.py -> /home/sli/slither_ws/build/locomotion_wire/build/lib/locomotion_wire
+copying locomotion_wire/__init__.py -> /home/sli/slither_ws/build/locomotion_wire/build/lib/locomotion_wire
+running install
+running install_lib
+creating /home/sli/slither_ws/install/locomotion_wire/lib/python3.10/site-packages/locomotion_wire
+copying /home/sli/slither_ws/build/locomotion_wire/build/lib/locomotion_wire/wire.py -> /home/sli/slither_ws/install/locomotion_wire/lib/python3.10/site-packages/locomotion_wire
+copying /home/sli/slither_ws/build/locomotion_wire/build/lib/locomotion_wire/locomotion.py -> /home/sli/slither_ws/install/locomotion_wire/lib/python3.10/site-packages/locomotion_wire
+copying /home/sli/slither_ws/build/locomotion_wire/build/lib/locomotion_wire/__init__.py -> /home/sli/slither_ws/install/locomotion_wire/lib/python3.10/site-packages/locomotion_wire
+byte-compiling /home/sli/slither_ws/install/locomotion_wire/lib/python3.10/site-packages/locomotion_wire/wire.py to wire.cpython-310.pyc
+byte-compiling /home/sli/slither_ws/install/locomotion_wire/lib/python3.10/site-packages/locomotion_wire/locomotion.py to locomotion.cpython-310.pyc
+byte-compiling /home/sli/slither_ws/install/locomotion_wire/lib/python3.10/site-packages/locomotion_wire/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/sli/slither_ws/install/locomotion_wire/share/ament_index
+creating /home/sli/slither_ws/install/locomotion_wire/share/ament_index/resource_index
+creating /home/sli/slither_ws/install/locomotion_wire/share/ament_index/resource_index/packages
+copying resource/locomotion_wire -> /home/sli/slither_ws/install/locomotion_wire/share/ament_index/resource_index/packages
+copying package.xml -> /home/sli/slither_ws/install/locomotion_wire/share/locomotion_wire
+running install_egg_info
+Copying ../../build/locomotion_wire/locomotion_wire.egg-info to /home/sli/slither_ws/install/locomotion_wire/lib/python3.10/site-packages/locomotion_wire-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/sli/slither_ws/build/locomotion_wire/install.log'

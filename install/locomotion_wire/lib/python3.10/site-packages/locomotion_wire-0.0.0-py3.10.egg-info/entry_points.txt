@@ -1,0 +1,3 @@
+[console_scripts]
+locomotion_wire = locomotion_wire.locomotion_wire:main
+

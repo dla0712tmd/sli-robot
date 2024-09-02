@@ -1,0 +1,3 @@
+[console_scripts]
+dynamixel_keyboard_controller = dynamixel_keyboard_controller.controller:main
+
